@@ -216,9 +216,8 @@ SOLDASUR_PP2_1C_2026/
 │
 ├── 📂 docs/                              # DOCUMENTACIÓN TÉCNICA Y DE USUARIO
 │   ├── 📄 MANUAL_ESCALAMIENTO.md.bk      # Copia de seguridad de guía de escalamiento
-│   ├── 📄 MANUAL_SISTEMA_EXPERTO_RAG.md  # Funcionamiento interno de motores expertos y RAG
 │   ├── 📄 MANUAL_TECNICO_ORQUESTADOR.md  # Flujo del orquestador e intenciones
-│   ├── 📄 MANUAL_TECNICO_SISTEMA_EXPERTO_WEBBER.md # Lógica y rendimiento de Weber
+│   ├── 📄 MANUAL_TECNICO_SISTEMA_EXPERTO_RAG.md # Reglas y fórmulas de sistemas expertos y RAG (PEISA/Weber)
 │   ├── 📄 MANUAL_USUARIO.md.bk           # Copia de seguridad de manual de usuario original
 │   ├── 📄 MANUAL_USUARIO.md              # Guía operativa y comercial de usuario
 │   └── 📄 MANUAL_INSTALACION.md          # Este manual técnico de instalación y escalamiento

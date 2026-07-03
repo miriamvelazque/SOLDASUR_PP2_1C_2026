@@ -123,7 +123,7 @@ Para más información sobre el mantenimiento, desarrollo y escalado de la aplic
 * 📘 **[Manual de Usuario](./docs/MANUAL_USUARIO.md):** Manual detallado de instalación, configuración del LLM y uso de calculadoras.
 * 🛠️ **[Manual de Instalación](./docs/MANUAL_INSTALACION.md):** Requisitos del sistema, pasos de instalación, configuración del entorno y mantenimiento del catálogo.
 * 🧠 **[Manual Técnico del Orquestador](./docs/MANUAL_TECNICO_ORQUESTADOR.md):** Explicación del funcionamiento de la lógica de decisiones e intenciones híbridas.
-* 📐 **[Manual Técnico del Sistema Experto Weber](./docs/MANUAL_TECNICO_SISTEMA_EXPERTO_WEBBER.md):** Detalle de fórmulas y lógica de cómputo de materiales de construcción.
+* 📐 **[Manual Técnico de Sistemas Expertos e IA RAG](./docs/MANUAL_TECNICO_SISTEMA_EXPERTO_RAG.md):** Funcionamiento, fórmulas y reglas de los motores PEISA, Weber y RAG.
 
 ---
 **Soldasur S.A. IA Chatbot © 2026** - Proyecto Desarrollado para la Práctica Profesionalizante II del Centro Politécnico Malvinas Argentinas.
