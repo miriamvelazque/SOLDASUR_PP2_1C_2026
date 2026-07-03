@@ -36,7 +36,19 @@ Este manual detalla los requisitos del sistema, pasos de instalación, configura
 
 ## Instalación y Puesta en Marcha
 
-### Paso 1: Instalar y Configurar Ollama
+### Paso 1: Instalar Python (v3.10 o superior)
+1. Descarga el instalador oficial de Python según tu sistema operativo desde la sección de descargas del sitio oficial: [https://www.python.org/downloads/](https://www.python.org/downloads/). Se recomienda una versión estable como **Python 3.10.x, 3.11.x o 3.12.x**.
+2. Ejecuta el instalador descargado.
+3. > [!IMPORTANT]
+   > En la primera pantalla del instalador (especialmente en Windows), asegúrate de marcar la casilla **"Add Python to PATH"** (o *"Agregar Python al PATH"*). Si omites este paso, tu sistema no reconocerá el comando `python` en la terminal.
+4. Sigue los pasos predeterminados y finaliza la instalación.
+5. Abre una nueva consola (CMD o PowerShell) y verifica la versión de Python instalada corriendo:
+   ```bash
+   python --version
+   ```
+   Debe retornar un texto como `Python 3.10.x` o superior.
+
+### Paso 2: Instalar y Configurar Ollama
 1. Descarga el instalador de Ollama desde su sitio web oficial: [https://ollama.com](https://ollama.com).
 2. Ejecuta el archivo descargado e instala la aplicación.
 3. Inicia el servidor de Ollama. Si no se ejecuta automáticamente en la bandeja del sistema, abre una terminal y arráncalo con:
@@ -49,8 +61,7 @@ Este manual detalla los requisitos del sistema, pasos de instalación, configura
    ```
    *(Nota: Puedes cambiar el modelo en `configs/prompts.json` si prefieres utilizar otro como `mistral` o `llama3:8b` si tu hardware lo permite)*.
 
-
-### Paso 2: Crear el Entorno Virtual de Python
+### Paso 3: Crear el Entorno Virtual de Python
 Abre la consola en la raíz de la carpeta del proyecto (`SOLDASUR_PP2_1C_2026/`) y ejecuta:
 
 **En Windows (Símbolo del Sistema / CMD):**
@@ -73,7 +84,7 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-### Paso 3: Instalar Dependencias de Python
+### Paso 4: Instalar Dependencias de Python
 Con el entorno virtual activado (verás el prefijo `(venv)` en tu terminal), instala todas las librerías necesarias especificadas en el archivo de requerimientos:
 ```bash
 pip install -r requirements.txt
