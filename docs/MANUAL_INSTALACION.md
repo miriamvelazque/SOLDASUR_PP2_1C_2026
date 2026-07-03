@@ -113,10 +113,10 @@ En la raíz del proyecto, haz doble clic en el archivo **`EjecutarSoldy.bat`**. 
    ```
 2. Abre otra terminal, activa el entorno virtual (`venv` según tu consola) y levanta la API del backend ejecutando:
    ```bash
-   python -m uvicorn app.main:app --port 9000 --reload
+   python -m uvicorn app.main:app --reload
    ```
-3. El servidor iniciará y estará disponible en: `http://localhost:9000`.
-4. Abre tu navegador web y entra a `http://localhost:9000` para abrir la interfaz del chat.
+3. El servidor iniciará y estará disponible en: `http://localhost:8000`.
+4. Abre tu navegador web y entra a `http://localhost:8000` para abrir la interfaz del chat.
 
 ---
 

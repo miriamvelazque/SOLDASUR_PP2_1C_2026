@@ -30,7 +30,7 @@ class ProductLoader:
         if self.excel_path.exists():
             self.load_products()
         else:
-            print(f"Advertencia: No se encontró {excel_path}. Intentando cargar desde SQLite...")
+            # print(f"Advertencia: No se encontró {excel_path}. Intentando cargar desde SQLite...")
             self._load_from_sqlite()
             
     def _load_from_sqlite(self) -> None:
@@ -49,9 +49,11 @@ class ProductLoader:
                 self._process_boilers()
                 self._process_floor_heating()
             else:
-                print(f"Advertencia: No se encontró la base de datos SQLite en {db_path}")
+                #print(f"Advertencia: No se encontró la base de datos SQLite en {db_path}")
+                pass
         except Exception as e:
-            print(f"Error cargando desde SQLite: {e}")
+            #print(f"Error cargando desde SQLite: {e}")  
+            pass
     
     def load_products(self) -> None:
         """Carga los productos desde el archivo Excel"""

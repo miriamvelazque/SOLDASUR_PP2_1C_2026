@@ -1,7 +1,7 @@
 @echo off
 title SoldaSur IA Chatbot - Consola de Inicio
 echo ===================================================
-echo       Iniciando SoldaSur IA Chatbot 🤖
+echo       Iniciando SoldaSur IA Chatbot
 echo ===================================================
 echo.
 
@@ -18,18 +18,18 @@ if "%ERRORLEVEL%"=="0" (
 )
 echo.
 
-:: 2. Levantar el navegador en segundo plano con un pequeño retardo
-echo [*] Programando apertura del navegador en http://localhost:9000...
-start /b cmd /c "timeout /t 6 /nobreak > nul && start http://localhost:9000"
-
-:: 3. Activar entorno virtual y levantar servidor
+:: 2. Activar entorno virtual y levantar servidor
 echo [*] Activando entorno virtual...
 if exist venv (
     call venv\Scripts\activate
     
-    echo [*] Verificando modelos de Hugging Face (se descargaran si no estan en cache)...
+    echo [*] Verificando modelos de Hugging Face - se descargaran si no estan en cache...
     python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'); SentenceTransformer('sentence-transformers/distiluse-base-multilingual-cased-v2')"
     echo.
+    
+    :: Monitorear el puerto 9000 en segundo plano y abrir el navegador en cuanto esté listo
+    echo [*] Esperando a que el servidor web este listo en el puerto 9000 para abrir el navegador...
+    start /b cmd /c "@echo off & for /l %%i in (1,1,30) do (netstat -ano | findstr :9000 | findstr LISTENING >nul && (start http://localhost:9000 & exit) || timeout /t 1 >nul)"
     
     echo [*] Levantando servidor FastAPI...
     python -m uvicorn app.main:app --port 9000 --reload
