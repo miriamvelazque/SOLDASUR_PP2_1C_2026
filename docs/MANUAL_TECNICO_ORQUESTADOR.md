@@ -10,54 +10,54 @@ El siguiente diagrama ilustra la lógica paso a paso utilizada por `IntentClassi
 
 ```mermaid
 flowchart TD
-    Start([Mensaje del Usuario]) --> CheckExpertMode{¿Está en Modo Experto?}
+    Start(["Mensaje del Usuario"]) --> CheckExpertMode{"¿Está en Modo Experto?"}
     
     %% Flujo Modo Experto
-    CheckExpertMode -- Sí --> CheckClarification{¿Es pregunta aclaratoria?}
-    CheckClarification -- Sí --> IntentClarification[Intención: CLARIFICATION\n-> RAG PEISA con botón 'Continuar']
-    CheckClarification -- No --> CheckNumeric{¿Es entrada numérica / opción?}
-    CheckNumeric -- Sí --> IntentGuided[Intención: GUIDED_CALCULATION\n-> Avanza en Flujo Experto]
+    CheckExpertMode -- Sí --> CheckClarification{"¿Es pregunta aclaratoria?"}
+    CheckClarification -- Sí --> IntentClarification["Intención: CLARIFICATION<br/>-> RAG PEISA con botón 'Continuar'"]
+    CheckClarification -- No --> CheckNumeric{"¿Es entrada numérica / opción?"}
+    CheckNumeric -- Sí --> IntentGuided["Intención: GUIDED_CALCULATION<br/>-> Avanza en Flujo Experto"]
     CheckNumeric -- No --> CheckSwitchMode
     
     %% Flujo General / No Experto
-    CheckExpertMode -- No --> CheckSwitchMode{¿Es cambio de modo explícito?\n(Ej: 'quiero preguntar libremente')}
+    CheckExpertMode -- No --> CheckSwitchMode{"¿Es cambio de modo explícito?<br/>(Ej: 'quiero preguntar libremente')"}
     
-    CheckSwitchMode -- Sí --> IntentSwitch[Intención: SWITCH_MODE\n-> Cambia modo en Contexto]
-    CheckSwitchMode -- No --> CheckContextualRouting{¿Hay marca activa previa?\n(last_active_brand en Contexto)}
+    CheckSwitchMode -- Sí --> IntentSwitch["Intención: SWITCH_MODE<br/>-> Cambia modo en Contexto"]
+    CheckSwitchMode -- No --> CheckContextualRouting{"¿Hay marca activa previa?<br/>(last_active_brand en Contexto)"}
     
     %% Enrutamiento Contextual
-    CheckContextualRouting -- Sí --> CheckGreeting{¿Es un saludo simple?\n(hola, gracias, chau, etc.)}
-    CheckGreeting -- No --> CheckBrandConflict{¿Tiene palabras clave\nde la OTRA marca?}
+    CheckContextualRouting -- Sí --> CheckGreeting{"¿Es un saludo simple?<br/>(hola, gracias, chau, etc.)"}
+    CheckGreeting -- No --> CheckBrandConflict{"¿Tiene palabras clave<br/>de la OTRA marca?"}
     
-    CheckBrandConflict -- No (Se mantiene marca) --> RouteActiveBrand{¿Cuál es la marca activa?}
-    RouteActiveBrand -- WEBER --> IntentWeberContext[Intención: WEBER_QUERY\n-> RAG Weber (Confianza 0.95)]
-    RouteActiveBrand -- PEISA --> IntentPeisaContext[Intención: FREE_QUERY\n-> RAG PEISA (Confianza 0.95)]
+    CheckBrandConflict -- No (Se mantiene marca) --> RouteActiveBrand{"¿Cuál es la marca activa?"}
+    RouteActiveBrand -- WEBER --> IntentWeberContext["Intención: WEBER_QUERY<br/>-> RAG Weber (Confianza 0.95)"]
+    RouteActiveBrand -- PEISA --> IntentPeisaContext["Intención: FREE_QUERY<br/>-> RAG PEISA (Confianza 0.95)"]
     
     CheckGreeting -- Sí (Es saludo) --> CheckFastCascading
     CheckBrandConflict -- Sí (Conflicto de marcas) --> CheckFastCascading
     CheckContextualRouting -- No --> CheckFastCascading
     
     %% Enrutamiento Rápido (Regex Heurístico)
-    CheckFastCascading{¿Tiene palabras clave directas?}
-    CheckFastCascading -- Weber Keywords --> IntentWeberFast[Intención: WEBER_QUERY\n-> RAG Weber (Confianza 1.0)]
-    CheckFastCascading -- PEISA Keywords --> IntentPeisaFast[Intención: FREE_QUERY\n-> RAG PEISA (Confianza 1.0)]
-    CheckFastCascading -- Ninguna --> CheckSemantic{¿Modelo Semántico\nvectorial disponible?}
+    CheckFastCascading{"¿Tiene palabras clave directas?"}
+    CheckFastCascading -- Weber Keywords --> IntentWeberFast["Intención: WEBER_QUERY<br/>-> RAG Weber (Confianza 1.0)"]
+    CheckFastCascading -- PEISA Keywords --> IntentPeisaFast["Intención: FREE_QUERY<br/>-> RAG PEISA (Confianza 1.0)"]
+    CheckFastCascading -- Ninguna --> CheckSemantic{"¿Modelo Semántico<br/>vectorial disponible?"}
     
     %% Enrutamiento Semántico
-    CheckSemantic -- Sí --> ComputeCosineSim[Calcular Similitud de Coseno con Anclas]
-    ComputeCosineSim --> CompareScores{¿Alguna supera el\numbral de 0.35?}
-    CompareScores -- Sí (Weber > PEISA) --> IntentWeberSemantic[Intención: WEBER_QUERY\n-> RAG Weber (Confianza = Sim Weber)]
-    CompareScores -- Sí (PEISA > Weber) --> IntentPeisaSemantic[Intención: FREE_QUERY\n-> RAG PEISA (Confianza = Sim PEISA)]
+    CheckSemantic -- Sí --> ComputeCosineSim["Calcular Similitud de Coseno con Anclas"]
+    ComputeCosineSim --> CompareScores{"¿Alguna supera el<br/>umbral de 0.35?"}
+    CompareScores -- Sí (Weber > PEISA) --> IntentWeberSemantic["Intención: WEBER_QUERY<br/>-> RAG Weber (Confianza = Sim Weber)"]
+    CompareScores -- Sí (PEISA > Weber) --> IntentPeisaSemantic["Intención: FREE_QUERY<br/>-> RAG PEISA (Confianza = Sim PEISA)"]
     CompareScores -- No --> FallbackRegex
     CheckSemantic -- No --> FallbackRegex
     
     %% Fallbacks e Híbrido
-    FallbackRegex{¿Coincide con expresiones\nregulares de Weber?}
-    FallbackRegex -- Sí --> IntentWeberRegex[Intención: WEBER_QUERY\n-> RAG Weber (Confianza 0.8)]
-    FallbackRegex -- No --> MatchOtherPatterns{¿Coincide con otros patrones?\n(Búsqueda, cálculo guiado, etc.)}
+    FallbackRegex{"¿Coincide con expresiones<br/>regulares de Weber?"}
+    FallbackRegex -- Sí --> IntentWeberRegex["Intención: WEBER_QUERY<br/>-> RAG Weber (Confianza 0.8)"]
+    FallbackRegex -- No --> MatchOtherPatterns{"¿Coincide con otros patrones?<br/>(Búsqueda, cálculo guiado, etc.)"}
     
-    MatchOtherPatterns -- Sí --> RoutePattern[Enrutar según patrón coincidente]
-    MatchOtherPatterns -- No --> IntentHybrid[Intención: HYBRID\n-> Modo Híbrido (RAG PEISA + Sugerencia Experta)]
+    MatchOtherPatterns -- Sí --> RoutePattern["Enrutar según patrón coincidente"]
+    MatchOtherPatterns -- No --> IntentHybrid["Intención: HYBRID<br/>-> Modo Híbrido (RAG PEISA + Sugerencia Experta)"]
 ```
 
 ---
