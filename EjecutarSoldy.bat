@@ -20,12 +20,18 @@ echo.
 
 :: 2. Levantar el navegador en segundo plano con un pequeño retardo
 echo [*] Programando apertura del navegador en http://localhost:9000...
-start /b cmd /c "timeout /t 4 /nobreak > nul && start http://localhost:9000"
+start /b cmd /c "timeout /t 6 /nobreak > nul && start http://localhost:9000"
 
 :: 3. Activar entorno virtual y levantar servidor
-echo [*] Activando entorno virtual y levantando servidor FastAPI...
+echo [*] Activando entorno virtual...
 if exist venv (
     call venv\Scripts\activate
+    
+    echo [*] Verificando modelos de Hugging Face (se descargaran si no estan en cache)...
+    python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'); SentenceTransformer('sentence-transformers/distiluse-base-multilingual-cased-v2')"
+    echo.
+    
+    echo [*] Levantando servidor FastAPI...
     python -m uvicorn app.main:app --port 9000 --reload
 ) else (
     echo [ERROR] No se encontro la carpeta del entorno virtual 'venv'.

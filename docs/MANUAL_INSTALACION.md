@@ -37,7 +37,7 @@ Este manual detalla los requisitos del sistema, pasos de instalación, configura
 ## Instalación y Puesta en Marcha
 
 ### Paso 1: Instalar Python (v3.10 o superior)
-1. Descarga el instalador oficial de Python según tu sistema operativo desde la sección de descargas del sitio oficial: [https://www.python.org/downloads/](https://www.python.org/downloads/). Se recomienda una versión estable como **Python 3.10.x, 3.11.x o 3.12.x**.
+1. Descarga el instalador oficial de Python según tu sistema operativo desde la sección de descargas del sitio oficial: [https://www.python.org/downloads/](https://www.python.org/downloads/). Se recomienda una versión estable como **Python 3.10.x, 3.12.x o 3.14.x**.
 2. Ejecuta el instalador descargado.
 3. > [!IMPORTANT]
    > En la primera pantalla del instalador (especialmente en Windows), asegúrate de marcar la casilla **"Add Python to PATH"** (o *"Agregar Python al PATH"*). Si omites este paso, tu sistema no reconocerá el comando `python` en la terminal.
