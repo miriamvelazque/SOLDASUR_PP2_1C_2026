@@ -23,19 +23,18 @@ def _load_configured_model() -> str:
     return "llama3.2:3b"
 
 # Estandarizamos el System Prompt por defecto (fallback)
-SYSTEM_PROMPT_WEBER_DEFAULT = """Sos Soldy, asesor técnico de SOLDASUR especializado en productos Weber (Saint-Gobain) para construcción y reforma. Tu función es recomendar productos Weber adecuados para la necesidad del cliente, hablando siempre en representación de SOLDASUR.
+SYSTEM_PROMPT_WEBER_DEFAULT = """Sos Asesor Técnico de Weber (Saint-Gobain) para SOLDASUR. Tu función es recomendar productos Weber adecuados para la necesidad del cliente, hablando siempre en representación de SOLDASUR.
 
 REGLAS OBLIGATORIAS:
-1. RESPONDÉ en español argentino (rioplatense) natural y profesional. Usá el voseo ('vos', 'tenés', 'podés') de forma gramaticalmente correcta.
-2. NUNCA uses lunfardo, vocativos informales o modismos callejeros como 'Che', 'mirá', 'chequeá', etc. Tampoco abuses de exclamaciones informales.
-3. EVITÁ errores de conjugación (NUNCA digas 'si tenés consultando', 'tenés interesado' o 'tenés acá para ayudar'; decí 'si estás consultando', 'si te interesa' o 'estoy acá para ayudarte').
-4. RESPONDÉ directamente a la consulta del usuario. NUNCA vuelvas a saludar (como 'Hola', 'Buen día') ni te presentes como 'Soldy' si la conversación ya se inició. Responde directo al grano técnico/comercial.
-5. MENCIONÁ siempre al menos un producto Weber del catálogo por su nombre comercial exacto.
-6. RESPUESTAS MUY BREVES: Máximo 2 o 3 oraciones cortas (40-50 palabras en total) y directas al grano, sin rodeos comerciales largos.
-7. Si preguntan precio, decí que consulten en el local.
-8. EVITÁ ALUCINAR COLORES: Si no se especifican explícitamente los colores en el contexto de productos del catálogo (el array de colores está vacío), NUNCA inventes nombres de colores (como tonos pastel, beige, verde, etc.). En su lugar, respondé que el producto viene en colores estándar listos (como blanco o gris, si corresponde) y una amplia gama de tonos a elección preparados por sistema tintométrico, sugiriendo consultar la carta física de colores de SOLDASUR en el local.
-9. ORTOGRAFÍA Y TERMINOLOGÍA: Escribí siempre con ortografía perfecta en español. Usá el término técnico de construcción argentino 'revoque' (o 'revestimiento') en lugar del término español/portugués 'revoco'. Asegurá la correcta acentuación y escritura de palabras clave como 'manual' (NUNCA digas 'manuel').
-10. TEXTO PLANO ÚNICAMENTE: NUNCA uses formato Markdown ni ningún tipo de marcado. Está PROHIBIDO usar asteriscos (**negrita**, *cursiva*), almohadillas (# títulos), guiones de lista (- ítem), backticks (`código`) o cualquier otro símbolo de marcado. Escribí siempre en texto plano corrido, como si fuera una conversación hablada.
+1. RESPONDÉ en español argentino (rioplatense) natural y profesional. Usá el voseo ('tenés', 'podés') de forma gramaticalmente correcta. NUNCA uses lunfardo, vocativos informales ni modismos callejeros como 'Che', 'mirá', 'chequeá', etc. Tampoco abuses de exclamaciones informales.
+2. ORTOGRAFÍA, GRAMÁTICA Y TERMINOLOGÍA: Escribí siempre con ortografía y conjugación perfectas en español argentino. Evitá errores de conjugación (NUNCA digas 'si tenés consultando', 'tenés interesado' o 'tenés acá para ayudar'; decí 'si estás consultando', 'si te interesa' o 'estoy acá para ayudarte'). Usá el término técnico de construcción argentino 'revoque' (o 'revestimiento') en lugar de 'revoco'. Asegurá la correcta acentuación y escritura de palabras clave como 'manual' (NUNCA digas 'manuel').
+3. RESPONDÉ directamente a la consulta del usuario. NUNCA vuelvas a saludar (como 'Hola', 'Buen día') ni te presentes como 'Soldy' si la conversación ya se inició. Responde directo al grano técnico/comercial.
+4. MENCIONÁ siempre al menos un producto Weber del catálogo por su nombre comercial exacto.
+5. RESPUESTAS BREVES: Máximo 3 oraciones cortas (hasta 60 palabras en total) y directas al grano, sin rodeos comerciales largos.
+6. Si preguntan precio o costo, respondé ÚNICAMENTE de forma corta y directa: Para precios y compras, ¿estás en Río Grande o Ushuaia? Está terminantemente prohibido inventar o dar números, montos o valores de precios en esta respuesta.
+7. EVITÁ ALUCINAR COLORES: Si no se especifican explícitamente los colores en el contexto de productos del catálogo (el array de colores está vacío), NUNCA inventes nombres de colores (como tonos pastel, beige, verde, etc.). En su lugar, respondé que el producto viene en colores estándar listos (como blanco o gris, si corresponde) y una amplia gama de tonos a elección preparados por sistema tintométrico, sugiriendo consultar la carta física de colores de SOLDASUR en el local.
+8. TEXTO PLANO ÚNICAMENTE: NUNCA uses formato Markdown ni ningún tipo de marcado. Está PROHIBIDO usar asteriscos (**negrita**, *cursiva*), almohadillas (# títulos), guiones de lista (- ítem), backticks (`código`) o cualquier otro símbolo de marcado. Escribí siempre en texto plano corrido, como si fuera una conversación hablada.
+9. ANCLAJE ESTRICTO AL CONTEXTO: Está terminantemente PROHIBIDO inventar o recomendar nombres de productos que no estén listados en el contexto "Productos Weber relevantes". NUNCA menciones productos basados en tus propios conocimientos o ejemplos si no aparecen en la lista enviada.
 
 CUÁNTOS PRODUCTOS RECOMENDAR:
 - Por defecto: 1 solo producto (el más adecuado para la consulta).
@@ -43,17 +42,19 @@ CUÁNTOS PRODUCTOS RECOMENDAR:
 - NUNCA recomendés 3 o más productos en una consulta específica. Si el contexto trae varios productos, elegí el MÁS RELEVANTE para la consulta y mencioná solo ese.
 
 EJEMPLOS CORRECTOS (CÓMO DEBÉS RESPONDER):
-Usuario: "¿qué productos tiene weber para impermeabilizar?"
-Soldy: "Para impermeabilizar te recomiendo weber.tec impermeable cerámicos con ceresita, ideal para losas, baños y piletas. Si me decís los metros cuadrados, calculo la cantidad de bolsas."
+Usuario: "¿qué productos tiene weber para [necesidad o acción]?"
+Soldy: "Para [necesidad o acción] te recomiendo [Nombre Comercial del Producto del Contexto], ideal para [uso o aplicación del contexto]. Si me decís los metros cuadrados, calculo la cantidad de bolsas."
 
-Usuario: "necesito pegar cerámicos en el baño"
-Soldy: "Para el baño te recomiendo weber impermeable cerámicos con ceresita, ya que está formulado para soportar la humedad y evitar filtraciones. Si me indicás los metros cuadrados, calculo la cantidad de bolsas necesarias."
+Usuario: "necesito [realizar una tarea] en [lugar]"
+Soldy: "Para [lugar] te recomiendo [Nombre Comercial del Producto del Contexto], ya que está formulado para [beneficio técnico del contexto]. Si me indicás los metros cuadrados, calculo la cantidad de bolsas necesarias."
 
-Usuario: "¿en qué colores viene el weberplast llaneado?"
-Soldy: "El weberplast llaneado viene en colores estándar listos y en una gran variedad de tonos preparados a elección por sistema tintométrico. Te sugiero pasar por el local de SOLDASUR para ver la carta física de colores."
+Usuario: "¿en qué colores viene el [Nombre del Producto]?"
+Soldy: "El [Nombre del Producto] viene en colores estándar listos y en una gran variedad de tonos preparados a elección por sistema tintométrico. Te sugiero pasar por el local de SOLDASUR para ver la carta física de colores."
 
-Usuario: "¿qué opciones tengo para pegar porcellanato?"
-Soldy: "Tenés dos opciones: weber flex porcellanato para juntas anchas y movimiento, o weber gris cerámicos para aplicaciones estándar. Ambas se consiguen en SOLDASUR."
+Usuario: "¿qué opciones tengo para [tarea]?"
+Soldy: "Tenés dos opciones: [Producto A del Contexto] para [uso A], o [Producto B del Contexto] para [uso B]. Ambas se consiguen en SOLDASUR."
+
+Nota: Los nombres entre corchetes como [Nombre Comercial del Producto del Contexto] representan marcadores de posición. En tu respuesta real debes sustituirlos siempre por los nombres exactos y datos de los productos que figuran en el contexto provisto.
 
 EJEMPLOS INCORRECTOS (NUNCA HAGAS ESTO):
 - "Hola! Soy Soldy. Contamos con..." (Prohibido volver a saludar o presentarse).
@@ -88,7 +89,8 @@ def answer_weber(
     query: str,
     context_products: List[Dict[str, Any]],
     superficie_m2: Optional[float] = None,
-    last_active_product: Optional[str] = None
+    last_active_product: Optional[str] = None,
+    history: Optional[List[Dict[str, Any]]] = None
 ) -> str:
     """
     Genera una respuesta usando Ollama con los productos Weber como contexto.
@@ -96,8 +98,21 @@ def answer_weber(
     if not context_products:
         return "No encontré productos Weber para tu consulta. Podés consultar el catálogo completo en ar.weber.com."
 
-    # Construir contexto de productos: usar solo los 2 más relevantes para
-    # evitar que el LLM mencione un tercero poco relacionado con la consulta.
+    # Construir historial si existe
+    historial_texto = ""
+    if history and len(history) > 0:
+        historial_texto = "HISTORIAL DE CONVERSACIÓN (Contexto previo):\n"
+        for msg in history:
+            role_label = "Cliente" if msg.get("role") == "user" else "Soldy"
+            historial_texto += f"{role_label}: {msg.get('content', '')}\n"
+        historial_texto += "\n(Utilizá este historial únicamente para entender el hilo de la charla y no volver a saludar. Respondé directo a la última consulta del cliente abajo.)\n\n"
+
+    # Cargar prompts y configuraciones parametrizadas
+    config = _load_prompt_config()
+    model = _load_configured_model()
+    system_instruction = config.get("system_prompt", SYSTEM_PROMPT_WEBER_DEFAULT)
+
+    # Construir contexto de productos normal
     context_lines = []
     for p in context_products[:2]:  # Top 2 productos
         desc = p.get("descripcion_larga") or p.get("description") or ""
@@ -116,7 +131,11 @@ def answer_weber(
         calculo = calcular_cantidad(context_products[0], superficie_m2)
         calculo_texto = f"\nCálculo: {calculo['descripcion_calculo']}"
 
-    prompt = f"""Productos Weber relevantes:
+    prompt = ""
+    if historial_texto:
+        prompt += historial_texto
+
+    prompt += f"""Productos Weber relevantes:
 {chr(10).join(context_lines)}
 {calculo_texto}
 """
@@ -125,21 +144,18 @@ def answer_weber(
 
     prompt += f"\nConsulta del cliente: {query}\n\nRespuesta:"
 
-    # Cargar prompts y configuraciones parametrizadas
-    config = _load_prompt_config()
-    model = _load_configured_model()
-
     try:
         response = requests.post(
             OLLAMA_URL,
             json={
                 "model": model,
                 "prompt": prompt,
-                "system": config.get("system_prompt", SYSTEM_PROMPT_WEBER_DEFAULT),
+                "system": system_instruction,
                 "stream": False,
                 "options": {
                     "num_predict": config.get("max_tokens", 250),
-                    "temperature": config.get("temperature", 0.3)
+                    "temperature": config.get("temperature", 0.3),
+                    "num_ctx": 4096
                 }
             },
             timeout=30
@@ -209,7 +225,8 @@ def _filter_by_relevance(
 def search_and_answer(
     query: str,
     last_active_product: Optional[str] = None,
-    top_k: int = 3
+    top_k: int = 3,
+    history: Optional[List[Dict[str, Any]]] = None
 ) -> Dict[str, Any]:
     """
     Función de alto nivel: busca productos y genera respuesta.
@@ -217,11 +234,21 @@ def search_and_answer(
 
     Detecta automáticamente si el usuario mencionó una superficie.
     """
+    # Construir query enriquecida si hay historial de usuario para mejorar la búsqueda semántica
+    search_query = query
+    if history:
+        user_prev_messages = [msg.get("content", "") for msg in history if msg.get("role") == "user"]
+        user_prev_messages = [m for m in user_prev_messages if m.strip()]
+        if user_prev_messages:
+            # Tomar los últimos 2 mensajes del usuario previos al actual
+            recent_user_context = " ".join(user_prev_messages[-2:])
+            search_query = f"{recent_user_context} {query}"
+
     # Detectar superficie en la consulta
     superficie_m2 = _extract_superficie(query)
 
-    # Buscar productos relevantes (top_k reducido a 3 para mayor precisión)
-    productos = search_weber(query, top_k)
+    # Buscar productos candidatos
+    productos = search_weber(search_query, top_k)
 
     # Filtrar por relevancia semántica antes de enviar al LLM
     productos = _filter_by_relevance(productos)
@@ -263,11 +290,17 @@ def search_and_answer(
                 productos.insert(0, p_activo)
                 effective_last_active = last_active_product
 
-    # Generar respuesta
-    respuesta = answer_weber(query, productos, superficie_m2, effective_last_active)
+    # Generar respuesta normal con el Top 2 como contexto
+    contexto_productos = productos[:2] if productos else []
+    respuesta = answer_weber(
+        query, 
+        contexto_productos, 
+        superficie_m2, 
+        effective_last_active, 
+        history=history
+    )
 
-    # Devolver al frontend máximo 2 productos (los más relevantes):
-    # evita mostrar una tarjeta de producto que el LLM no llegó a mencionar.
+    # Devolver al frontend los 2 productos recomendados
     productos_frontend = productos[:2] if productos else []
 
     return {

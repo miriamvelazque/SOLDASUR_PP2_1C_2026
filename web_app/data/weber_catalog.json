@@ -1,46 +1,8 @@
 [
   {
-    "model": "Impermeabilización en Parque Acuático",
-    "description": "Impermeabilización en Parque Acuático",
-    "category": "Impermeabilizantes",
-    "subcategory": "Soluciones Cementicias",
-    "type": "PRODUCTO WEBER",
-    "family": "Weber",
-    "brand": "Weber",
-    "url": "https://www.ar.weber/la-linea-mas-completa-de-impermeabilizantes/soluciones-cementicias/impermeabilizacion-en-parque-acuatico",
-    "technical_features": [],
-    "advantages": [
-      "Rapidez en la reparación, confianza para continuar otros trabajos, simpleza en la aplicación. Permitió planificar y coordinar trabajos complejos por tratarse de reparaciones especiales.",
-      "Productos asociados",
-      "weber imper G",
-      "impermeabilizante para muro de ladrillo",
-      "weber flex PU",
-      "Juntas de Dilatacion",
-      "weber veredas",
-      "Mezcla de gran adherencia, para asentar baldosas.",
-      "weber imper F",
-      "Impermeabilizante para hormigon",
-      "weber dur",
-      "Reparador de Hormigon capa gruesa"
-    ],
-    "specifications": {},
-    "restricciones": [],
-    "rendimiento": "",
-    "tiempo_secado": "",
-    "presentacion": "",
-    "soporte": [],
-    "colores": [],
-    "filtros": {},
-    "atributos_tecnicos": {},
-    "pdf_text": "",
-    "tiene_pdf": false,
-    "documentos": [],
-    "imagen_url": "",
-    "imagen_local": ""
-  },
-  {
     "model": "tacurú enduído plástico interior",
-    "description": "tacurú enduído plástico interior",
+    "description": "No aplicar en días con probabilidad de lluvia muy alta o",
+    "descripcion_larga": "No aplicar en días con probabilidad de lluvia muy alta o humedad relativa por encima del 85%. No aplicar con temperaturas ambiente por debajo de 5°C o superior a 35°C o en momentos de exposición plena de sol.",
     "category": "Pinturas y preparación",
     "subcategory": "Preparacion De Superficies",
     "type": "PRODUCTO WEBER",
@@ -124,7 +86,8 @@
   },
   {
     "model": "tacurú fijador sellador al agua",
-    "description": "tacurú fijador sellador al agua",
+    "description": "Sellador acrílico incoloro mate de uso exterior e interior, desarrollado especialmente para fijar, sellar y uniformar la absorción de superficies que luego serán pintadas o revestidas. Es un producto de características elásticas e impermeable, de excelente rendimiento, no salpica y con buen poder anti hongo. Seca rápidamente, aumenta la vida útil y rendimiento de la pintura de terminación, mejorando su nivelación y adhiriendo todas las partículas flojas y evitando descascaramientos posteriores.",
+    "descripcion_larga": "Agite el contenido del envase con una varilla de forma de no incorporar aire hasta obtener un producto homogéneo y fluido. Agregar 2 a 3 partes de agua limpia para facilitar su aplicación según el método a utilizar.",
     "category": "Pinturas y preparación",
     "subcategory": "Preparacion De Superficies",
     "type": "PRODUCTO WEBER",
@@ -211,7 +174,8 @@
   },
   {
     "model": "weber acrylfix",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Sellador acrílico ideal para grietas y fisuras en paredes. Pintable y lijable.",
+    "descripcion_larga": "Limpiar bien la superficie para que se encuentre libre de polvo, aceite, grasa, óxido, pintura o revestimiento no adherente, entre otros. Asegurarse de que se encuentre completamente seca. Proteger los bordes de la junta a sellar con cinta adhesiva para un mejor acabado.",
     "category": "Selladores y espumas",
     "subcategory": "Selladores Y Espumas",
     "type": "PRODUCTO WEBER",
@@ -240,17 +204,11 @@
       "Color": "Blanco"
     },
     "restricciones": [
-      "aplicar en lugares sometidos al tránsito, para ello utilizar weber flex PU.",
-      "aplicar sobre ladrillos de vidrio, ni bañeras.",
-      "No aplicar en áreas",
-      "sumergidas en agua o superficies en contacto permanente con aceites,",
-      "plastificantes o solventes.",
-      "Si las paredes",
-      "presentan descascaramiento, realizar previamente las reparaciones",
-      "correspondientes para luego tratar las grietas y fisuras.",
-      "Limpie las",
-      "herramientas con un disolvente orgánico. Una vez curado el material sólo se",
-      "elimina mecánicamente.",
+      "No aplicar en lugares sometidos al tránsito, para ello utilizar weber flex PU.",
+      "No aplicar sobre ladrillos de vidrio, ni bañeras.",
+      "No aplicar en áreas sumergidas en agua o superficies en contacto permanente con aceites, plastificantes o solventes.",
+      "Si las paredes presentan descascaramiento, realizar previamente las reparaciones correspondientes para luego tratar las grietas y fisuras.",
+      "Limpie las herramientas con un disolvente orgánico. Una vez curado el material sólo se elimina mecánicamente.",
       "Ficha de producto",
       "FP weber acrylfix.pdf",
       "Hoja Técnica",
@@ -314,7 +272,8 @@
   },
   {
     "model": "weber alisado color",
-    "description": "Premezcla con color incorporado para la realización de pisos cementicios en capa gruesa.",
+    "description": "Examinar el soporte en detalle, para detectar roturas, fisuras y partes flojas. Reparar las fisuras mediante el empotramiento de llaves. Eliminar y rellenar partes flojas y desprendidas. Limpiar a fondo, eliminado el polvo superficial y suciedad. Para optimizar la adherencia al sustrato, aplicar dos manos de weber primer. Humedecer levemente la superficie antes de volcar el producto.",
+    "descripcion_larga": "",
     "category": "Pisos",
     "subcategory": "Pisos Decorativos",
     "type": "PRODUCTO WEBER",
@@ -337,10 +296,7 @@
       "Colores oscuros": "gris"
     },
     "restricciones": [
-      "No aplicar sobre membranas con foil de aluminio.",
-      "No es aplicable sobre solados existentes.",
-      "Bajo ningún concepto agregar agua para el alisado, ya que destonalizará la superficie. Trabajar siempre con el agua que ya contiene la mezcla.",
-      "No es un piso continuo, debiendo emplearse en su construcción juntas de dilatación, contracción y perimetrales.",
+      "No aplicar sobre membranas con foil de aluminio. No es aplicable sobre solados existentes. Bajo ningún concepto agregar agua para el alisado, ya que destonalizará la superficie. Trabajar siempre con el agua que ya contiene la mezcla. No es un piso continuo, debiendo emplearse en su construcción juntas de dilatación, contracción y perimetrales.",
       "Ficha de producto",
       "FP_weber_alisado.pdf",
       "Hoja Técnica",
@@ -395,7 +351,8 @@
   },
   {
     "model": "weber anclaje químico",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Alta resistencia inicial y final",
+    "descripcion_larga": "",
     "category": "Selladores y espumas",
     "subcategory": "Selladores Y Espumas",
     "type": "PRODUCTO WEBER",
@@ -519,6 +476,7 @@
   {
     "model": "weber autonivela",
     "description": "Premezcla cementicia de consistencia fluida para la nivelación de sustratos en capa fina, tanto en obra nueva como en renovación. Uso interior",
+    "descripcion_larga": "",
     "category": "Pisos",
     "subcategory": "Carpetas Y Nivelacion",
     "type": "PRODUCTO WEBER",
@@ -620,7 +578,8 @@
   },
   {
     "model": "weber basic cerámicos",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pegamento para colocar piezas cerámicas de alta absorción sobre carpetas o revoques convencionales en interiores.",
+    "descripcion_larga": "Pegamento para colocar piezas cerámicas de alta absorción sobre carpetas o revoques convencionales en interiores.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Para Ceramicos",
     "type": "PRODUCTO WEBER",
@@ -634,11 +593,7 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Ideal para interior en pisos y paredes",
-      "Impermeable",
-      "Muy fino",
-      "Amigable con el medio ambiente",
-      "Sin descuelgue",
+      "Ideal para interior en pisos y paredes Impermeable Muy fino Amigable con el medio ambiente Sin descuelgue",
       "Sin descuelgues"
     ],
     "specifications": {
@@ -707,6 +662,7 @@
   {
     "model": "weber block",
     "description": "Mezcla de asiento hidrófuga, apta para bloques de hormigón, ladrillos cerámicos y ladrillos comunes.",
+    "descripcion_larga": "• Verificar la horizontalidad de la base y fijar guías verticales como referencia para lograr una pared a plomo. • Humedecer la superficie",
     "category": "Revoques y albañilería",
     "subcategory": "Mezclas De Asiento",
     "type": "PRODUCTO WEBER",
@@ -719,8 +675,7 @@
       "•\t Vida de la pasta: 30 min."
     ],
     "advantages": [
-      "Excelente control de asentamiento.",
-      "Fácil aplicación.",
+      "Excelente control de asentamiento. Fácil aplicación.",
       "Ficha de producto",
       "FP_weber_block.pdf",
       "Hoja Técnica",
@@ -793,6 +748,7 @@
   {
     "model": "weber carpeta",
     "description": "Premezcla cementicia aditivada con Ceresita para la construcción de carpetas niveladoras bajo solado",
+    "descripcion_larga": "",
     "category": "Pisos",
     "subcategory": "Carpetas Y Nivelacion",
     "type": "PRODUCTO WEBER",
@@ -885,6 +841,7 @@
   {
     "model": "weber celublock",
     "description": "Mezcla de asiento hidrófuga, especialmente diseñada para bloques de hormigón celular.",
+    "descripcion_larga": "• Verificar la horizontalidad de la base y fijar guías verticales como referencia para lograr una pared a plomo.",
     "category": "Revoques y albañilería",
     "subcategory": "Mezclas De Asiento",
     "type": "PRODUCTO WEBER",
@@ -902,8 +859,7 @@
       "•\t Bloque de 20 cm: 6,25 kg/m2"
     ],
     "advantages": [
-      "Con ceresita.",
-      "Ideal como promotor de adherencia.",
+      "Con ceresita. Ideal como promotor de adherencia.",
       "Ficha de producto",
       "FP_weber_celublock.pdf",
       "Hoja Técnica",
@@ -981,7 +937,8 @@
   },
   {
     "model": "weber cera finish",
-    "description": "Cera autobrillo con alto contenido de sólidos para pisos cementicios. Protege y da brillo intenso sin necesidad de lustre. Terminación uniforme sin vetas.",
+    "description": "Para superficies de alto tránsito, aplicar sin diluir. Para superficies de transito bajo a medio, diluir con 30% de agua.",
+    "descripcion_larga": "Para superficies de alto tránsito, aplicar sin diluir. Para superficies de transito bajo a medio, diluir con 30% de agua.",
     "category": "Pisos",
     "subcategory": "Productos Complementarios",
     "type": "PRODUCTO WEBER",
@@ -1064,7 +1021,8 @@
   },
   {
     "model": "weber desmoldante PL",
-    "description": "Es aplicable sobre superfcies cementicias previo al estampado.",
+    "description": "Es aplicable sobre superfcies cementicias previo al estampado. weber desmoldante PL garantiza la no adherencia del mortero sobre la herramienta. Revisar que el molde no se humedezca para una mayor efectividad del estampado, si esto ocurre, eliminar la humedad con un trapo limpio y espolvorear weber desmoldante PL sobre el molde. El producto pigmenta ligeramente la superficie aplicada",
+    "descripcion_larga": "Es aplicable sobre superfcies cementicias previo al estampado. weber desmoldante PL garantiza la no adherencia del mortero sobre la herramienta. Revisar que el molde no se humedezca para una mayor efectividad del estampado, si esto ocurre, eliminar la humedad con un trapo limpio y espolvorear weber desmoldante PL sobre el molde. El producto pigmenta ligeramente la superficie aplicada",
     "category": "Pisos",
     "subcategory": "Pisos Decorativos",
     "type": "PRODUCTO WEBER",
@@ -1140,7 +1098,8 @@
   },
   {
     "model": "weber dur",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Mortero reparador de hormigón en capa gruesa",
+    "descripcion_larga": "",
     "category": "Reparación de hormigón",
     "subcategory": "Reparacion De Hormigon",
     "type": "PRODUCTO WEBER",
@@ -1174,8 +1133,7 @@
       "• Tiempo para revestir": "> 7 días como mínimo"
     },
     "restricciones": [
-      "No aplicar weber.tec dur sobre yeso o sobre superficies pintadas.",
-      "Resiste a la polución y a la carbonatación.",
+      "No aplicar weber.tec dur sobre yeso o sobre superficies pintadas. Resiste a la polución y a la carbonatación.",
       "Ficha de producto",
       "FP weber dur.pdf",
       "Hoja Técnica",
@@ -1235,6 +1193,7 @@
   {
     "model": "weber emulsión",
     "description": "emulsión acrílica para preparar weber microbase o weber microcolor. Puede utilizarse también como imprimación en este sistema.",
+    "descripcion_larga": "No aplicar sobre pinturas o adhesivos. o Al preparar weber microbase o weber microcolor: mezclar hasta obtener una masa homogénea o Como imprimación del sistema: esparcir y estirar el producto con pincel o rodillo sin dejar charcos.",
     "category": "Pisos",
     "subcategory": "Productos Complementarios",
     "type": "PRODUCTO WEBER",
@@ -1250,8 +1209,7 @@
       "Densidad del líquido": "1.00 g/cm³"
     },
     "restricciones": [
-      "No agregar agua ni ningún otro componente externo a la mezcla",
-      "no aplicar sobre pinturas o adhesivos.",
+      "No agregar agua ni ningún otro componente externo a la mezcla no aplicar sobre pinturas o adhesivos.",
       "Ficha de producto",
       "FP_weber_emulsion.pdf",
       "Hoja Técnica",
@@ -1300,7 +1258,8 @@
   },
   {
     "model": "weber espuma PU",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Pared Exterior, Fachada, Pared Interna, Pared pintada, Techo, Techo de chapas",
+    "descripcion_larga": "",
     "category": "Selladores y espumas",
     "subcategory": "Selladores Y Espumas",
     "type": "PRODUCTO WEBER",
@@ -1399,7 +1358,8 @@
   },
   {
     "model": "weber estándar cerámicos",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pegamento para colocar piezas cerámicas de alta absorción sobre carpetas o revoques convencionales en interiores.",
+    "descripcion_larga": "Weber estándar cerámicos es una mezcla adhesiva impermeable de base cementicia, formulada con aglomerantes hidráulicos, áridos de granulometría compensada y aditivos químicos, diseñada para la colocación de piezas cerámicas de alta absorción en pisos y revestimientos interiores. Ofrece gran adherencia y resistencia, y es apta para la colocación de cerámicos de hasta 40 × 40 cm en pisos y paredes en interior. Pegamento para colocar piezas cerámicas de alta absorción sobre carpetas o revoques convencionales en interiores.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Para Ceramicos",
     "type": "PRODUCTO WEBER",
@@ -1411,18 +1371,26 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Ideal para interior en pisos y paredes",
-      "Impermeable",
-      "Muy fino",
-      "Amigable con el medio ambiente",
-      "Sin descuelgue"
+      "Alta adherencia que asegura una correcta fijación de las piezas cerámicas.",
+      "Excelente resistencia mecánica, aportando durabilidad en la instalación.",
+      "Impermeable, adecuado para aplicaciones en interiores.",
+      "Fácil preparación y aplicación, con buena trabajabilidad.",
+      "Apto para cerámicos de hasta 40 × 50 cm, ideal para formatos convencionales.",
+      "Versátil, se puede aplicar en pisos y paredes de interior.",
+      "Buena nivelación, facilita el ajuste del espesor con llana dentada.",
+      "Ideal para interior en pisos y paredes Impermeable Muy fino Amigable con el medio ambiente Sin descuelgue",
+      "Impermeable"
     ],
     "specifications": {
       "Bolsa de": "25 kg.",
       "línea de consulta Servi Plus (Tel": "+54 11 5173 4100) /"
     },
     "restricciones": [
-      "En exteriores ver Guía de selección. Sobre soportes de yeso o deformables utilizar weber pasta. En revestimientos tipo veneciano utilizar weber veneciano. Sobre losas radiantes, utilizar weber superflex. Para piezas de baja absorción, utilizar mezcla de ligantes mixtos. Pisos de alto tránsito o pulidos utilizar mezclas de ligantes mixtos.",
+      "Respetar la cantidad de agua de amasado recomendada: 5 lts. por bolsa de 25 kg.",
+      "No aplicar a temperaturas inferiores a 10 °C ni superiores a 30 °C.",
+      "Comprobar la pegajosidad de la pasta extendida previa la colocación",
+      "Proteger los revestimientos cerámicos de dilataciones y contracciones con un buen tratamiento de juntas.",
+      "Utilizar doble encolado con piezas de gran formato o elevado peso",
       "Comprobar que el soporte esté limpio y seco.",
       "Utilizar doble encolado con piezas de gran formato o elevado peso.",
       "No aplicar a temperaturas inferiores a 10ºC ni superiores a 30ºC.",
@@ -1476,6 +1444,7 @@
   {
     "model": "weber fino",
     "description": "Revoque fino a la cal para interiores, para realizar sobre él todo tipo de terminaciones.",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Revoques Finos",
     "type": "PRODUCTO WEBER",
@@ -1490,8 +1459,7 @@
       "•\t Nota: Estos tiempos pueden variar dependiendo de la"
     ],
     "advantages": [
-      "Fácil aplicación.",
-      "Excelente terminación.",
+      "Fácil aplicación. Excelente terminación.",
       "Ficha de producto",
       "FP_weber_fino.pdf",
       "Hoja Técnica",
@@ -1563,7 +1531,8 @@
   },
   {
     "model": "weber flex porcellanato",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Comprobar que el soporte esté limpio y seco.",
+    "descripcion_larga": "Mezcla adhesiva flexible para la colocación de cerámicas y porcellanatos en interior y exterior. Ideal para pisos radiantes o expuestos a cambios de temperatura.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Flexibles Y Grandes Formatos",
     "type": "PRODUCTO WEBER",
@@ -1574,17 +1543,13 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Aditivado con ceresita",
-      "Posee tecnología nivel",
-      "Es flexible",
-      "Amigable con el medio ambiente",
-      "Impermeable",
-      "Apto pisos radiantes y exteriores",
+      "Aditivado con ceresita Posee tecnología nivel Es flexible Amigable con el medio ambiente Impermeable Apto pisos radiantes y exteriores",
       "Aditivado con Ceresita",
       "Alta tolerancia térmica",
       "Cero hundimiento",
       "Facil Nivelacion",
       "Fragüe rápido",
+      "Impermeable",
       "Secado rápido"
     ],
     "specifications": {
@@ -1674,7 +1639,8 @@
   },
   {
     "model": "weber flex PU",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Pared Exterior, Fachada, Piso, Piso existente, Pared Interna, Pared pintada, Techo, Piscina, Revestimiento Antiguo",
+    "descripcion_larga": "",
     "category": "Selladores y espumas",
     "subcategory": "Selladores Y Espumas",
     "type": "PRODUCTO WEBER",
@@ -1800,6 +1766,7 @@
   {
     "model": "weber forte",
     "description": "Revoque fino a la cal formulado con cemento para exteriores, para realizar sobre él todo tipo de terminaciones.",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Revoques Finos",
     "type": "PRODUCTO WEBER",
@@ -1813,9 +1780,7 @@
       "•\t Tiempo de endurecimiento total: 7 días."
     ],
     "advantages": [
-      "Fino a la cal con cemento para exteriores.",
-      "Mayor dureza y resistencia.",
-      "Excelente terminación.",
+      "Fino a la cal con cemento para exteriores. Mayor dureza y resistencia. Excelente terminación.",
       "Ficha de producto",
       "FP_weber_forte.pdf",
       "Hoja Técnica",
@@ -1882,7 +1847,8 @@
   },
   {
     "model": "weber forte porcellanato",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pegamento impermeable de alta adherencia para colocar porcellanatos.",
+    "descripcion_larga": "Mezcla de ligantes mixtos para colocar porcellanatos, gres, piedra natural con o sin absorción, en pisos y muros interiores y semicubiertos.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Para Porcellanatos",
     "type": "PRODUCTO WEBER",
@@ -1896,12 +1862,10 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Aditivado con ceresita",
-      "Posee tecnología nivel",
-      "Otorga adherencia perfecta",
-      "Impermeable",
+      "Aditivado con ceresita Posee tecnología nivel Otorga adherencia perfecta Impermeable",
       "Aditivado con Ceresita",
-      "Control de asentamiento"
+      "Control de asentamiento",
+      "Impermeable"
     ],
     "specifications": {
       "Bolsa de": "25 kg.",
@@ -1977,6 +1941,7 @@
   {
     "model": "weber glass",
     "description": "Mezcla para colocar ladrillos de vidrio",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Mezclas De Asiento",
     "type": "PRODUCTO WEBER",
@@ -2011,8 +1976,7 @@
       "• Vida de la pasta": "30 min"
     },
     "restricciones": [
-      "No mojar los bloques de vidrio",
-      "No agregar ningún componente adicional, axcepto agua limpia en el empaste.",
+      "No mojar los bloques de vidrio No agregar ningún componente adicional, axcepto agua limpia en el empaste.",
       "Ficha de producto",
       "FP weber glass.pdf",
       "Hoja Técnica",
@@ -2069,7 +2033,8 @@
   },
   {
     "model": "weber gris cerámicos",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pegamento para colocar piezas cerámicas de alta absorción sobre carpetas o revoques convencionales en interiores.",
+    "descripcion_larga": "Pegamento para colocar piezas cerámicas de alta absorción sobre carpetas o revoques convencionales en interiores.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Para Ceramicos",
     "type": "PRODUCTO WEBER",
@@ -2083,10 +2048,7 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Ideal para interior en pisos y paredes",
-      "Impermeable",
-      "Fácil llaneado",
-      "Amigable con el medio ambiente",
+      "Ideal para interior en pisos y paredes Impermeable Fácil llaneado Amigable con el medio ambiente",
       "Mejor trabajabilidad"
     ],
     "specifications": {
@@ -2154,7 +2116,8 @@
   },
   {
     "model": "weber grout",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Mortero cementicio fluido, de alta resistencia, para rellenos y empotramientos",
+    "descripcion_larga": "",
     "category": "Fijación y anclaje",
     "subcategory": "Anclaje Y Fijacion",
     "type": "PRODUCTO WEBER",
@@ -2172,11 +2135,7 @@
       "Fragüe ﬁnal: < 9 hs"
     ],
     "advantages": [
-      "No presenta segregado.",
-      "No contrae, debido a que experimenta una expansión inicial que compensa la posterior retracción.",
-      "Es fluído, lo que permite rellenar y acceder fácilmente a las cavidades independientemente de su geometría.",
-      "Alcanza altas resistencia mecánicas en tiempos breves.",
-      "Se adhiere perfectamente al hierro de los hormigones, protegiendolos del óxido y la corrosión.",
+      "No presenta segregado. No contrae, debido a que experimenta una expansión inicial que compensa la posterior retracción. Es fluído, lo que permite rellenar y acceder fácilmente a las cavidades independientemente de su geometría. Alcanza altas resistencia mecánicas en tiempos breves. Se adhiere perfectamente al hierro de los hormigones, protegiendolos del óxido y la corrosión.",
       "Fácil aplicacion",
       "No fisura"
     ],
@@ -2251,7 +2210,8 @@
   },
   {
     "model": "weber grout 70\n                  \n            Nuevo Producto",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Grout cementicio fluido de alta resistencia con retracción controlada para realizar rellenos y empotramientos.",
+    "descripcion_larga": "Mortero cementicio fluido, de elevada resistencia mecánica inicial y final para nivelación de precisión de estructuras y maquinarias. Además, tiene retracción compensada para realizar rellenos y empotramientos. No contiene elementos metálicos ni cloruros.",
     "category": "Fijación y anclaje",
     "subcategory": "Anclaje Y Fijacion",
     "type": "PRODUCTO WEBER",
@@ -2316,6 +2276,7 @@
   {
     "model": "weber hidrorrepelente",
     "description": "Revoque fino a la cal formulado con cemento blanco, para interior y exterior y realizar sobre él todo tipo de terminaciones.",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Revoques Finos",
     "type": "PRODUCTO WEBER",
@@ -2330,9 +2291,7 @@
       "•\t Nota: Estos tiempos pueden variar dependiendo de la"
     ],
     "advantages": [
-      "Terminación extra blanca.",
-      "Interior y exterior.",
-      "Excelente terminación.",
+      "Terminación extra blanca. Interior y exterior. Excelente terminación.",
       "Ficha de producto",
       "FP_weber_hidrorrepelente.pdf",
       "Hoja Técnica",
@@ -2405,7 +2364,8 @@
   },
   {
     "model": "weber hormiestetic",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Mortero para reparaciones hormigones manchados y mal encofrados",
+    "descripcion_larga": "",
     "category": "Reparación de hormigón",
     "subcategory": "Reparacion De Hormigon",
     "type": "PRODUCTO WEBER",
@@ -2423,14 +2383,13 @@
       "Tiempo de puesta en servicio: 24 horas"
     ],
     "advantages": [
-      "Gran adherencia",
-      "Gran resistencia",
-      "Muy plástico",
-      "Revestible",
+      "Gran adherencia Gran resistencia Muy plástico Revestible",
       "Fácil aplicacion",
       "Fragüe rápido",
       "Mayor resistencia",
-      "Pintable"
+      "Muy plástico",
+      "Pintable",
+      "Revestible"
     ],
     "specifications": {
       "Nota": "Los valores son aproximados, han sido obtenidos mediante ensayos",
@@ -2514,7 +2473,8 @@
   },
   {
     "model": "weber hormivisto",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Limpiar el soporte de polvo y material flojo Humedecer el soporte para una mejor adherencia del producto",
+    "descripcion_larga": "",
     "category": "Reparación de hormigón",
     "subcategory": "Reparacion De Hormigon",
     "type": "PRODUCTO WEBER",
@@ -2523,9 +2483,7 @@
     "url": "https://www.ar.weber/soluciones-para-fijaciones-anclajes-y-sellados/reparacion-de-hormigon/weber-hormivisto",
     "technical_features": [],
     "advantages": [
-      "Gran adherencia",
-      "Gran resistencia",
-      "Terminación fina y lisa",
+      "Gran adherencia Gran resistencia Terminación fina y lisa",
       "Fácil manipulación",
       "Excelente trabajabilidad",
       "Alta resistencia"
@@ -2604,7 +2562,8 @@
   },
   {
     "model": "weber hydromur",
-    "description": "Tratamiento de humedad y vías de agua",
+    "description": "Impermeabilizante para reparacion de humedades ascendentes",
+    "descripcion_larga": "",
     "category": "Impermeabilizantes",
     "subcategory": "Tratamiento De Humedad Y Vias De Agua",
     "type": "PRODUCTO WEBER",
@@ -2686,6 +2645,7 @@
   {
     "model": "weber imper F",
     "description": "Impermeabilizante alta prestaciones para hormigon",
+    "descripcion_larga": "",
     "category": "Impermeabilizantes",
     "subcategory": "Soluciones Cementicias",
     "type": "PRODUCTO WEBER",
@@ -2794,6 +2754,7 @@
   {
     "model": "weber imper G",
     "description": "Impermeabilizante alta prestaciones para ladrillos",
+    "descripcion_larga": "",
     "category": "Impermeabilizantes",
     "subcategory": "Soluciones Cementicias",
     "type": "PRODUCTO WEBER",
@@ -2824,9 +2785,7 @@
       "adecuadamente. Se recomienda": "arenado o limpieza"
     },
     "restricciones": [
-      "No aplicar sobre soportes empapados de agua.",
-      "No utilizar en soportes fisurados o susceptibles de movimiento.",
-      "No utilizar en medio ácido con pH inferior a 6.",
+      "No aplicar sobre soportes empapados de agua. No utilizar en soportes fisurados o susceptibles de movimiento. No utilizar en medio ácido con pH inferior a 6.",
       "Ficha de producto",
       "FP_weber_imper_G.pdf",
       "Hoja Técnica",
@@ -2902,7 +2861,8 @@
   },
   {
     "model": "weber impermeable cerámicos con ceresita",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Ideal cerámicas en baños y cocinas Protección hidrófuga superior Amigable con el medio ambiente Mayor tiempo de corrección",
+    "descripcion_larga": "Pegamento para colocar azulejos y cerámicos de alta absorción en pisos y muros interiores, de base calcarea o cementicia.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Para Ceramicos",
     "type": "PRODUCTO WEBER",
@@ -2916,10 +2876,7 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Ideal cerámicas en baños y cocinas",
-      "Protección hidrófuga superior",
-      "Amigable con el medio ambiente",
-      "Mayor tiempo de corrección",
+      "Ideal cerámicas en baños y cocinas Protección hidrófuga superior Amigable con el medio ambiente Mayor tiempo de corrección",
       "Aditivado con Ceresita",
       "Impermeable"
     ],
@@ -2993,7 +2950,8 @@
   },
   {
     "model": "weber imperstop",
-    "description": "Tratamiento de humedad y vías de agua",
+    "description": "Impermeabilizante obturador instantáneo para fugas de agua.",
+    "descripcion_larga": "",
     "category": "Impermeabilizantes",
     "subcategory": "Tratamiento De Humedad Y Vias De Agua",
     "type": "PRODUCTO WEBER",
@@ -3027,8 +2985,7 @@
       "NOTA": "los tiempos pueden prolongarse a baja temperatura o"
     },
     "restricciones": [
-      "No resiste la fisuración del soporte.",
-      "Debido a su fraguado instantáneo, no está destinado a taponar ni rellenar grandes superficies, tampoco para reparaciones estructurales (utilizar weber.tec dur).",
+      "No resiste la fisuración del soporte. Debido a su fraguado instantáneo, no está destinado a taponar ni rellenar grandes superficies, tampoco para reparaciones estructurales (utilizar weber.tec dur).",
       "Ficha de producto",
       "FP weber imperstop.pdf",
       "Hoja Técnica",
@@ -3110,7 +3067,8 @@
   },
   {
     "model": "weber limpiador cerámicos",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Limpiador líquido de restos de obra ( mezcla adhesiva, pastina, cal, yeso, etc), hongos, sarro y y demás manchas de similar intensidad sobre piezas cerámicas y juntas",
+    "descripcion_larga": "Limpiador para eliminar restos de obra (mezcla adhesiva, pastina, cal, yeso), sarro y demás manchas de similar intensidad sobre piezas cerámicas y juntas. Ideal para extraer eflorescencia, manchas de aceite y pastinas.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Limpieza Y Proteccion",
     "type": "PRODUCTO WEBER",
@@ -3119,8 +3077,7 @@
     "url": "https://www.ar.weber/colocacion-ceramicas-porcellanatos-y-pastinas/limpieza-y-proteccion/weber-limpiador-ceramicos",
     "technical_features": [],
     "advantages": [
-      "Elimina restos de obra",
-      "Limpia eflorescencias"
+      "Elimina restos de obra Limpia eflorescencias"
     ],
     "specifications": {
       "•\t Diluido con agua al 50%": "12 m2/L - Puro= 6 m2/L"
@@ -3178,6 +3135,7 @@
   {
     "model": "weber listo",
     "description": "Mortero de asiento listo para usar. Para ladrillos cerámicos, bloques de hormigón y ladrillos de hormigón celular.",
+    "descripcion_larga": "Verificar la horizontalidad de la base y fijar guías verticales como referencia para lograr una pared a plomo. No mojar los ladrillos antes de la aplicación del producto.",
     "category": "Revoques y albañilería",
     "subcategory": "Mezclas De Asiento",
     "type": "PRODUCTO WEBER",
@@ -3197,7 +3155,7 @@
       "Elevada adherencia",
       "Sachet con indicación de corte para la aplicación",
       "Reemplaza 60 kg de mortero tradicional",
-      "2 m2  de pared aprox.,  por sachet",
+      "2 m2 de pared aprox., por sachet",
       "Ficha de producto",
       "FP_weber_listo.pdf",
       "Hoja Técnica",
@@ -3279,6 +3237,7 @@
   {
     "model": "weber masa plus",
     "description": "Premezcla cementicia monocomponente para la nivelación de sustratos en capa fina.",
+    "descripcion_larga": "",
     "category": "Pisos",
     "subcategory": "Carpetas Y Nivelacion",
     "type": "PRODUCTO WEBER",
@@ -3347,6 +3306,7 @@
   {
     "model": "weber microbase",
     "description": "Premezcla cementicia bicomponente para la nivelación de sustratos en capa fina.",
+    "descripcion_larga": "",
     "category": "Pisos",
     "subcategory": "Pisos Decorativos",
     "type": "PRODUCTO WEBER",
@@ -3440,57 +3400,9 @@
     "imagen_local": "data_raw\\weber\\img\\weber_microbase.jpg"
   },
   {
-    "model": "weber microcolor",
-    "description": "premezcla cementicia con color para la construcción de pisos decorativos en capa fina",
-    "category": "Pisos decorativos",
-    "subcategory": "Pisos Decorativos",
-    "type": "PRODUCTO WEBER",
-    "family": "Weber",
-    "brand": "Weber",
-    "url": "https://www.ar.weber/pisos-decorativos/weber-microcolor",
-    "technical_features": [
-      "Conservación:"
-    ],
-    "advantages": [],
-    "specifications": {},
-    "restricciones": [
-      "Evitar el contacto de objetos abrasivos o punzantes sobre la superficie terminada.",
-      "No agregar agua ni otros compuestos externos a los recomendados para preparar la mezcla.",
-      "Ficha de producto",
-      "FP_weber_microcolor.pdf",
-      "Hoja Técnica",
-      "HT_weber_microcolor.pdf"
-    ],
-    "rendimiento": "Composición",
-    "tiempo_secado": "",
-    "presentacion": "Colores",
-    "soporte": [
-      "Pared Interna",
-      "Piso",
-      "Piso existente",
-      "Colores"
-    ],
-    "colores": [],
-    "filtros": {},
-    "atributos_tecnicos": {},
-    "pdf_text": "weber microcolor\nPresentación  \nColores \nUsos \nTips y seguridad\nweber protector \n weber removedor.\nFÁCIL\nDE APLICAR\nRESISTENTE\nCAPA FINA\nConsumo\nComposición\nCaracterísticas técnicas\nwww.ar.weber\nweber microcolor\nPresentación  \nColores \nModo de empleo\nweber \nmicrobase\nweber emulsión base \nweber microcolor\nweber \nemulsión base\nweber emulsión \nweber microcolor.\nweber \nprotector base\nweber \ncera finish\nConservación:\nPreparación del soporte  \n1\n2\n3\n4\nwww.ar.weber\n2\n",
-    "tiene_pdf": true,
-    "documentos": [
-      {
-        "nombre": "FP_weber_microcolor.pdf",
-        "url": "https://www.ar.weber/files/ar/2019-05/FP_weber_microcolor.pdf"
-      },
-      {
-        "nombre": "HT_weber_microcolor.pdf",
-        "url": "https://www.ar.weber/files/ar/2018-09/HT_weber_microcolor.pdf"
-      }
-    ],
-    "imagen_url": "",
-    "imagen_local": ""
-  },
-  {
     "model": "weber mix E",
-    "description": "Revoques manuales y proyectables",
+    "description": "Mortero 3 en 1 con ceresita de aplicación manual, para la realización de revoques exteriores.",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Revoques Manuales Y Proyectables",
     "type": "PRODUCTO WEBER",
@@ -3502,9 +3414,7 @@
       "Revoque exterior 3 en 1: grueso y fino con Ceresita. Aplicación manual"
     ],
     "advantages": [
-      "Con ceresita.",
-      "Mayor productividad.",
-      "Excelente terminación.",
+      "Con ceresita. Mayor productividad. Excelente terminación.",
       "Ficha de producto",
       "FP_weber_mix_E.pdf",
       "Hoja Técnica",
@@ -3579,7 +3489,8 @@
   },
   {
     "model": "weber mix I",
-    "description": "Revoques manuales y proyectables",
+    "description": "Mortero 2 en 1 para la realización de revoques interiores.",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Revoques Manuales Y Proyectables",
     "type": "PRODUCTO WEBER",
@@ -3592,8 +3503,7 @@
       "Revoque interior 2 en 1: grueso y fino. Aplicación manual"
     ],
     "advantages": [
-      "Mayor productividad.",
-      "Excelente terminación.",
+      "Mayor productividad. Excelente terminación.",
       "Ficha de producto",
       "FP_weber_mix_I.pdf",
       "Hoja Técnica",
@@ -3664,6 +3574,7 @@
   {
     "model": "weber monocapa prisma",
     "description": "Revestimiento color 4 en 1 con ceresita para terminaciones símil piedra en muros y fachadas, interiores y exteriores.",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Revoque Monocapa",
     "type": "PRODUCTO WEBER",
@@ -3680,9 +3591,7 @@
       "Nota: Estos resultados se han obtenido en ensayos realizados bajo condiciones"
     ],
     "advantages": [
-      "Ceresita, grueso, fino y color.",
-      "Terminación símil piedra con mica incorporada.",
-      "Interior y exterior.",
+      "Ceresita, grueso, fino y color. Terminación símil piedra con mica incorporada. Interior y exterior.",
       "Aditivado con Ceresita",
       "Impermeable",
       "Excelente trabajabilidad"
@@ -3696,9 +3605,7 @@
       "Espesor máximo de aplicación": "20 mm. Para aplicaciones mayores, realizarlas en capas"
     },
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No agregar cemento ni ningún tipo de aditivo.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No agregar cemento ni ningún tipo de aditivo.",
       "Ficha de producto",
       "FP_weber_monocapa_prisma.pdf",
       "Hoja Técnica",
@@ -3766,7 +3673,8 @@
   },
   {
     "model": "weber pasta listo",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Mezcla adhesiva en pasta lista para usar de máxima flexibilidad y adherencia.",
+    "descripcion_larga": "Pasta adhesiva lista para usar, para la colocación de piezas cerámicas y porcellanatos, de máxima flexibilidad y adherencia. Ideal para colocar sobre placas de yeso.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Especificos",
     "type": "PRODUCTO WEBER",
@@ -3779,13 +3687,10 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Listo para usar",
-      "Adherencia perfecta",
+      "Listo para usar Adherencia perfecta Excelente trabajabilidad Flexible Especial para construcción en seco Fácil aplicación",
       "Excelente trabajabilidad",
-      "Flexible",
-      "Especial para construcción en seco",
-      "Fácil aplicación",
       "Fácil aplicacion",
+      "Listo para usar",
       "Velocidad y seguridad"
     ],
     "specifications": {
@@ -3866,7 +3771,8 @@
   },
   {
     "model": "weber pastina classic",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pastina cementicia impermeable para tomar juntas cerámicas de terminación fina.",
+    "descripcion_larga": "Pastina cementicia para tomar juntas de hasta 5 mm. entre cerámicas de alta absorción, tanto en pisos como en paredes.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Empastinado",
     "type": "PRODUCTO WEBER",
@@ -3878,12 +3784,7 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Impermeable",
-      "Antihongos",
-      "Antialgas",
-      "Amplia gama de colores",
-      "Resistente",
-      "Terminación fina"
+      "Impermeable Antihongos Antialgas Amplia gama de colores Resistente Terminación fina"
     ],
     "specifications": {
       "Bolsa de": "2 y 5 kg.",
@@ -3935,7 +3836,8 @@
   },
   {
     "model": "weber pastina epoxi max",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": ". Ideal para aplicar en lugares de alta exposición a",
+    "descripcion_larga": "",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Empastinado",
     "type": "PRODUCTO WEBER",
@@ -4067,7 +3969,8 @@
   },
   {
     "model": "weber pastina lista",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pastina acrílica monocomponente, lista para usar, de fácil aplicación.",
+    "descripcion_larga": "Pastina acrílica monocomponente lista para tomar juntas de 1 a 4 mm. de espesor en piezas cerámicas de media y alta absorción.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Empastinado",
     "type": "PRODUCTO WEBER",
@@ -4079,16 +3982,13 @@
       "línea de consulta Tel: (+598) 22882001."
     ],
     "advantages": [
-      "Impermeable",
-      "Color duradero",
-      "Resistente a las manchas",
-      "Apto renovación pastina existente",
-      "Listo para usar",
-      "Amplia gama de colores",
+      "Impermeable Color duradero Resistente a las manchas Apto renovación pastina existente Listo para usar Amplia gama de colores",
       "Excelente trabajabilidad",
       "Fácil aplicacion",
       "Fácil manipulación",
       "Gran dureza",
+      "Impermeable",
+      "Listo para usar",
       "No contrae",
       "No fisura",
       "Para pisos y paredes",
@@ -4192,7 +4092,8 @@
   },
   {
     "model": "weber pastina prestige",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pastina cementicia impermeable de alta prestación y excelente adherencia en porcellanatos.",
+    "descripcion_larga": "Pastina cementicia para tomar juntas de 2 a 15 mm. entre piezas de baja absorción y para utilizar en superficies sometidas a una exigencia superior a la normal.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Empastinado",
     "type": "PRODUCTO WEBER",
@@ -4206,11 +4107,8 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Doble consistencia: piso y pared Impermeable",
-      "Antihongos",
+      "Doble consistencia: piso y pared Impermeable Antihongos Antialgas Amplia gama de colores Flexible",
       "Antialgas",
-      "Amplia gama de colores",
-      "Flexible",
       "Antihongo",
       "Impermeable"
     ],
@@ -4288,7 +4186,8 @@
   },
   {
     "model": "weber piscinas",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pegamento impermeable blanco, resistente para piezas en piscinas.",
+    "descripcion_larga": "Mezcla adhesiva impermeable para la colocación de piezas cerámicas de baja, media y alta absorción, en pisos y paredes interiores y exteriores. Ideal para piezas en piscinas.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Especificos",
     "type": "PRODUCTO WEBER",
@@ -4303,11 +4202,7 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Aditivado con ceresita",
-      "Ideal para superficies sumergidas",
-      "Antihongos",
-      "Antialgas",
-      "Resistente"
+      "Aditivado con ceresita Ideal para superficies sumergidas Antihongos Antialgas Resistente"
     ],
     "specifications": {
       " Tiempo abierto": "20 minutos.",
@@ -4356,7 +4251,8 @@
   },
   {
     "model": "weber piso sobre piso 12hs",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Mezcla adhesiva para colocar piezas cerámicas de baja, media y alta absorción sobre cerámicos existentes.",
+    "descripcion_larga": "Mezcla adhesiva para colocar piezas cerámicas de baja, media y alta absorción sobre cerámicos existentes.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Especificos",
     "type": "PRODUCTO WEBER",
@@ -4370,12 +4266,7 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Puesta en servicio a las 12 hs",
-      "Evita picar piso existente",
-      "Adherencia elevada",
-      "Aditivado con ceresita",
-      "Renovación rápida",
-      "Libre de polvo",
+      "Puesta en servicio a las 12 hs Evita picar piso existente Adherencia elevada Aditivado con ceresita Renovación rápida Libre de polvo",
       "Rápida puesta en servicio",
       "Velocidad y seguridad"
     ],
@@ -4448,6 +4339,7 @@
   {
     "model": "weber primer",
     "description": "promotor de adherencia acrílico",
+    "descripcion_larga": "No aplicar sobre pinturas, adhesivos ni sobre solados existentes. Esparcir y estirar el producto de manera homogénea, sin dejar charcos. Tener en cuenta que el sol directo o las altas temperaturas aceleran el secado. Cubrir el producto con la carpeta, dentro de las primeras 12 hs después de su aplicación.",
     "category": "Pisos",
     "subcategory": "Pisos Decorativos",
     "type": "PRODUCTO WEBER",
@@ -4519,7 +4411,8 @@
   },
   {
     "model": "weber print",
-    "description": "Endurecedor superficial para pisos decorativos de hormigón",
+    "description": "Sobre el terreno correctamente asentado, colocar un aislante plástico, para evitar que el terreno absorba prematuramente el agua del hormigón. Utilizar malla metálica en el interior de la estructura. Dejar juntas estructurales. Mantener limpias las reglas perimetrales, ya que al momento de alisar los restos de hormigón o endurecedor presentes pueden manchar la superficie. El vibrado del hormigón colabora con la correcta humectación del mortero.",
+    "descripcion_larga": "Sobre el terreno correctamente asentado, colocar un aislante plástico, para evitar que el terreno absorba prematuramente el agua del hormigón. Utilizar malla metálica en el interior de la estructura. Dejar juntas estructurales. Mantener limpias las reglas perimetrales, ya que al momento de alisar los restos de hormigón o endurecedor presentes pueden manchar la superficie. El vibrado del hormigón colabora con la correcta humectación del mortero.",
     "category": "Pisos",
     "subcategory": "Pisos Decorativos",
     "type": "PRODUCTO WEBER",
@@ -4543,7 +4436,7 @@
     ],
     "specifications": {},
     "restricciones": [
-      "No usar hormigón de asentamiento mayor a 10 / No agregar agua superficialmente para facilitar el empaste del producto, utilizar solamente el agua proveniente del hormigón  / prestar especial atención a la incorporación del producto al hormigón después del primer espolvoreo",
+      "No usar hormigón de asentamiento mayor a 10 / No agregar agua superficialmente para facilitar el empaste del producto, utilizar solamente el agua proveniente del hormigón / prestar especial atención a la incorporación del producto al hormigón después del primer espolvoreo",
       "Ficha de producto",
       "FP_weber_print.pdf",
       "Hoja Técnica",
@@ -4616,7 +4509,8 @@
   },
   {
     "model": "weber print XC",
-    "description": "Endurecedor superficial no metálico para pisos de hormigón con alto contenido de cuarzo",
+    "description": "Alta resistencia inicial y final",
+    "descripcion_larga": "Sobre el terreno correctamente asentado, colocar un aislante plástico, para evitar que el terreno absorba prematuramente el agua del hormigón. Utilizar malla metálica en el interior de la estructura. Dejar juntas estructurales. Mantener limpias las reglas perimetrales, ya que al momento de alisar los restos de hormigón o endurecedor presentes pueden manchar la superficie. EL vibrado del hormigón colabora con la correcta humectación del mortero.",
     "category": "Pisos",
     "subcategory": "Pisos Decorativos",
     "type": "PRODUCTO WEBER",
@@ -4641,7 +4535,7 @@
     ],
     "specifications": {},
     "restricciones": [
-      "No usar hormigón de asentamiento mayor a 10 / No agregar agua superficialmente para facilitar el empaste del producto, utilizar solamente el agua proveniente del hormigón  / prestar especial atención a la incorporación del producto al hormigón después del primer espolvoreo",
+      "No usar hormigón de asentamiento mayor a 10 / No agregar agua superficialmente para facilitar el empaste del producto, utilizar solamente el agua proveniente del hormigón / prestar especial atención a la incorporación del producto al hormigón después del primer espolvoreo",
       "Ficha de producto",
       "FP_weber_print_xc.pdf",
       "Hoja Técnica",
@@ -4718,7 +4612,8 @@
   },
   {
     "model": "weber pro porcellanato",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pegamento impermeable de gran adherencia para cerámicos y porcellanatos.",
+    "descripcion_larga": "Mezcla de ligantes mixtos para piezas de alta, media y baja absorción, sobre bases convencionales cementicias o calcáreas y hormigones. Apto para sectores semicubiertos.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Para Porcellanatos",
     "type": "PRODUCTO WEBER",
@@ -4732,9 +4627,7 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Adherencia perfecta",
-      "Amigable con el medio ambiente",
-      "Impermeable",
+      "Adherencia perfecta Amigable con el medio ambiente Impermeable",
       "Aditivado con Ceresita",
       "Alta resistencia",
       "Mayor resistencia"
@@ -4813,7 +4706,8 @@
   },
   {
     "model": "weber promex E",
-    "description": "Revoques manuales y proyectables",
+    "description": "Mortero 3 en 1 con ceresita para la realización de revoques exteriores aplicados con máquina proyectable (DUO MIX Plus E, Monojet, G4, etc.).",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Revoques Manuales Y Proyectables",
     "type": "PRODUCTO WEBER",
@@ -4828,9 +4722,7 @@
       "Revoque exterior 3 en 1: grueso y fino con Ceresita. Aplicación proyectable"
     ],
     "advantages": [
-      "Con ceresita.",
-      "Mayor productividad.",
-      "Excelente terminación.",
+      "Con ceresita. Mayor productividad. Excelente terminación.",
       "Ficha de producto",
       "FP_weber_promex_E.pdf",
       "Hoja Técnica",
@@ -4907,7 +4799,8 @@
   },
   {
     "model": "weber promex I",
-    "description": "Revoques manuales y proyectables",
+    "description": "Mortero 2 en 1 para la realización de revoques interiores aplicados con máquina proyectable (DUO MIX Plus E, Monojet, G4, etc.).",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Revoques Manuales Y Proyectables",
     "type": "PRODUCTO WEBER",
@@ -4922,8 +4815,7 @@
       "Revoque interior 2 en 1: grueso y fino. Aplicación proyectable."
     ],
     "advantages": [
-      "Mayor productividad.",
-      "Excelente terminación.",
+      "Mayor productividad. Excelente terminación.",
       "Ficha de producto",
       "FP_weber_promex_I.pdf",
       "Hoja Técnica",
@@ -4988,67 +4880,9 @@
     "imagen_local": "data_raw\\weber\\img\\weber_promex_i.jpg"
   },
   {
-    "model": "weber promex therm A\n                  \n            Nuevo Producto",
-    "description": "Mortero liviano a base de EPS, con gran capacidad de aislamiento termoacústico. Formulado especialmente para ser aplicado como revoque en paredes.",
-    "category": "Aislación térmica",
-    "subcategory": "Revoques Termoaislantes",
-    "type": "PRODUCTO WEBER",
-    "family": "Weber",
-    "brand": "Weber",
-    "url": "https://www.ar.weber/aislacion-termica/revoques-termoaislantes/weber-promex-therm-a",
-    "technical_features": [
-      "• Conductividad térmica (λ): 0,05 W/(m·k).",
-      "• Coeficiente de permeabilidad al vapor de agua:",
-      "• Resistencia a la compresión: >0,4 MPa",
-      "Manual: preparar la mezcla con",
-      "proyectada: regular la maquina",
-      "Aplicación Manual: Comenzar a",
-      "Aplicación Proyectado: comenzar",
-      "por capa: 40 mm."
-    ],
-    "advantages": [
-      "Gran capacidad de aislación termoacústica.",
-      "Fácil aplicación.",
-      "Hasta 4cm en una sola aplicación."
-    ],
-    "specifications": {
-      "• Conductividad térmica (λ)": "0,05 W/(m·k).",
-      "• Resistencia a la compresión": ">0,4 MPa",
-      "Manual": "preparar la mezcla con",
-      "proyectada": "regular la maquina",
-      "Aplicación Manual": "Comenzar a",
-      "Aplicación Proyectado": "comenzar",
-      "por capa": "40 mm."
-    },
-    "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No agregar cemento ni ningún tipo de aditivo.",
-      "No dejar expuesto en exteriores, siempre debe revestirse.",
-      "Ficha de producto",
-      "FP weber promex therm A"
-    ],
-    "rendimiento": "1,6 kg/m2",
-    "tiempo_secado": "",
-    "presentacion": "COLOR",
-    "soporte": [],
-    "colores": [],
-    "filtros": {},
-    "atributos_tecnicos": {},
-    "pdf_text": "www.ar.weber\nPRESENTACIÓN\nCOLOR\no BENEFICIOS\nUSOS\nTIPS Y SEGURIDAD\nBolsa papel x 9,2 kg\nPara aplicar en muros exteriores en viviendas nuevas o en \nrenovación, como aislante termoacústico.\nUSO \nEXTERIOR\nULTRA \nLIVIANA\nMANUAL O \nPROYECTABLE\nSOLO \nAGREGAR \nAGUA\nWeber Promex ThermA\nRevoque aislante termo-acústico de grandes prestaciones\n• Gran capacidad de aislación térmica \n• Aporta mejoras acústicas \n• Hasta 4 cm de espesor en una sola \naplicación\nAmarillo\n•\nAplicar con temperaturas entre 5 °C y 30 °C. \n•\nNo aplicar con tiempo muy húmedo, con lluvia, con fuerte calor o \ncon riesgo de heladas. \n•\nNo aplicar en superficies húmedas o con riesgo de estancamiento \nde agua.\n•\nLos soportes deben ser planos, estables, resistentes, estar limpios y \nsecos. \n•\nVer promotores de adherencia para cada sustrato en la ficha de \nproducto.\nCOMPOSICIÓN\nConglomerantes hidráulicos (cemento blanco), \ncal aérea, EPS y aditivos especiales.\nRENDIMIENTO Y/O CONSUMO\n• 1,6 kg/m2 por cm de espesor.\nCARACTERÍSTICAS TÉCNICAS\n• Conductividad térmica (λ): 0,05 W/(m·k).\n• Coeficiente de permeabilidad al vapor de agua:\n0,07 g/mhkPa.\n• Resistencia a la compresión: >0,4 MPa\nwww.ar.weber\nCONSERVACIÓN\nNOTA\nmeses a partir de la fecha de fabricación,    en envase \noriginal cerrado y al abrigo de temperaturas extremas.\nMODO DE EMPLEO\nPREPARACIÓN DEL SOPORTE\n•\nAsegurarse que el soporte se encuentra plano, estable, \nresistente y limpio. \n•\nEn tiempo caluroso o con viento seco, debe humedecerse el \nsoporte previamente a la aplicación\n•\nLadrillos comunes, ladrillos cerámicos, bloques de hormigón, \nbloques de Hormigón celular (previa colocación de weber\ncelublock), revoques y soportes antiguos en rehabilitación \n(previo puente de adherencia). Para superficies lisas y poco \nabsorbentes como vigas y columnas de hormigón o grandes \nsuperficies de hormigón utilizar previamente promotor de\nadherencia weberprim IC52 o weber celublock. Este producto \ndebe revestirse.\nWeber Promex Therm A\n12\nPara realizar aplicaciones fuera del rango de temperatura \nindicado, consultar a nuestro Dto. Técnico al 0800-800-\nweber(93237).\nRevoque aislante termo-acústico de grandes prestaciones\nColocar las reglas metálicas con \nel mismo material. Aplicación \nManual: preparar la mezcla con \nagua limpia, aproximadamente \n12 litros por bolsa. Aplicación \nproyectada: regular la maquina \nhasta lograr la consistencia \nadecuada.\nAplicación Manual: Comenzar a \naplicar el material presionando \ncon una llana metálica sobre la \npared, luego cucharear el resto. \nAplicación Proyectado: comenzar \na proyectar desde abajo hacia \narriba y de manera uniforme. \nEspesor máximo de aplicación \npor capa: 40 mm.\nReglear hasta conseguir una \nsuperficie plana, estable y \nhomogénea. Retirar las guías y \nrellenar. Dejar secar como \nmínimo un día por cm de \naplicación. En los puntos donde \nexistiera riesgo de fisuración, \nutilizar malla de fibra de vidrio \npara armar el mortero\n",
-    "tiene_pdf": true,
-    "documentos": [
-      {
-        "nombre": "FP weber promex therm A",
-        "url": "https://www.ar.weber/files/ar/2024-01/FP%20weber%20promex%20therm%20A.pdf"
-      }
-    ],
-    "imagen_url": "",
-    "imagen_local": ""
-  },
-  {
     "model": "weber protector base",
-    "description": "Sellador de superficie de base acuosa con alto contenido de sólidos, pisos cementicios u otras superficies porosas. Sella, cerrando el poro de la superficie, haciéndola menos permeable a las manchas y facilitando la aplicación de ceras de terminación, brindando así mayor protección y brillo.",
+    "description": "Trapear previo a la aplicación, para eliminar el polvo.",
+    "descripcion_larga": "Trapear previo a la aplicación, para eliminar el polvo.",
     "category": "Pisos",
     "subcategory": "Productos Complementarios",
     "type": "PRODUCTO WEBER",
@@ -5122,7 +4956,8 @@
   },
   {
     "model": "weber protector cerámicos",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Protector de juntas y cerámicas de uso interior y exterior.",
+    "descripcion_larga": "Para proteger juntas y cerámicas no esmaltadas o curadas, evita la formación de hongos. Protege las superficies de manchas de obras, café, gaseosa y otros productos de uso cotidiano. Protege las cerámicas durante el empastinado y facilita su limpieza. Uso interior y exterior.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Limpieza Y Proteccion",
     "type": "PRODUCTO WEBER",
@@ -5131,9 +4966,7 @@
     "url": "https://www.ar.weber/colocacion-ceramicas-porcellanatos-y-pastinas/limpieza-y-proteccion/weber-protector-ceramicos",
     "technical_features": [],
     "advantages": [
-      "Protección duraredera para juntas y cerámicas",
-      "Evita formación de hongos",
-      "Incoloro y fácil de aplicar"
+      "Protección duraredera para juntas y cerámicas Evita formación de hongos Incoloro y fácil de aplicar"
     ],
     "specifications": {},
     "restricciones": [
@@ -5177,7 +5010,8 @@
   },
   {
     "model": "weber rapid",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Mortero rápido para anclajes y reparaciones",
+    "descripcion_larga": "",
     "category": "Fijación y anclaje",
     "subcategory": "Anclaje Y Fijacion",
     "type": "PRODUCTO WEBER",
@@ -5275,6 +5109,7 @@
   {
     "model": "weber RAS",
     "description": "Premezcla cementicia fluida para la construcción de carpetas niveladoras bajo solado.",
+    "descripcion_larga": "",
     "category": "Pisos",
     "subcategory": "Carpetas Y Nivelacion",
     "type": "PRODUCTO WEBER",
@@ -5360,7 +5195,8 @@
   },
   {
     "model": "weber refractarios",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Mortero especial para colocación y tomado de juntas de tejuelas y ladrillos refractarios.",
+    "descripcion_larga": "Mortero de altas prestaciones, apto para la colocación de revestimientos refractarios en superficies sometidas a la acción de altas temperaturas, como asadores, estufas, parillas, hornos a leña. De uso domiciliario.",
     "category": "Fijación y anclaje",
     "subcategory": "Anclaje Y Fijacion",
     "type": "PRODUCTO WEBER",
@@ -5446,7 +5282,8 @@
   },
   {
     "model": "weber S2 flex\n                  \n            Nuevo Producto",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pared Exterior, Pared Interna, Piso",
+    "descripcion_larga": "Pegamento cremoso impermeable de alto rendimiento y flexibilidad superior. Perfecto para placas de gran formato, de uso interior y exterior Ideal para aplicaciones en interior y exterior. Apto para el pegado de piezas con gran deformabilidad",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Flexibles Y Grandes Formatos",
     "type": "PRODUCTO WEBER",
@@ -5523,6 +5360,7 @@
   {
     "model": "weber salpicrete",
     "description": "Revestimiento cementicio coloreado, de uso decorativo, para interiores y exteriores.",
+    "descripcion_larga": "",
     "category": "Revestimientos cementícios",
     "subcategory": "Revestimientos Cementicios",
     "type": "PRODUCTO WEBER",
@@ -5538,8 +5376,7 @@
       "Nota: Estos resultados se han obtenido en ensayos realizados bajo condiciones"
     ],
     "advantages": [
-      "•Efecto salpicado.",
-      "•Excelente resistencia y trabajabilidad.",
+      "•Efecto salpicado. •Excelente resistencia y trabajabilidad.",
       "Alta resistencia",
       "Excelente trabajabilidad"
     ],
@@ -5552,10 +5389,7 @@
       "Densidad de la masa": "2,0 gr/cm3"
     },
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No aplicar con exposición directa al sol o fuertes vientos.",
-      "No curar el material.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No aplicar con exposición directa al sol o fuertes vientos. No curar el material.",
       "Ficha de producto",
       "FP_weber_salpicrete.pdf",
       "Hoja Técnica",
@@ -5615,7 +5449,8 @@
   },
   {
     "model": "weber silicona C",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Sellador de silicona neutra con fungicida",
+    "descripcion_larga": "",
     "category": "Selladores y espumas",
     "subcategory": "Selladores Y Espumas",
     "type": "PRODUCTO WEBER",
@@ -5646,8 +5481,7 @@
       "Nota": "estos resultados se han obtenido en ensayos realizados"
     },
     "restricciones": [
-      "weber silicona C no debe utilizarse en juntas sometidas a tráfico.",
-      "weber silicona C no permite ser pintado ni barnizado",
+      "weber silicona C no debe utilizarse en juntas sometidas a tráfico. weber silicona C no permite ser pintado ni barnizado",
       "Ficha de producto",
       "FP weber silicona C.pdf",
       "Hoja Técnica",
@@ -5723,7 +5557,8 @@
   },
   {
     "model": "weber silicona S",
-    "description": "Soluciones para fijaciones, anclajes y sellados",
+    "description": "Sellador de silicona de curado acético con fungicida",
+    "descripcion_larga": "Limpiar bien la superficie para que se encuentre libre de polvo, aceite, grasa, óxido, pintura o revestimiento no adherente, entre otros. Asegurarse de que se encuentre completamente seca. Proteger los bordes de la junta a sellar con cinta adhesiva para un mejor acabado.",
     "category": "Selladores y espumas",
     "subcategory": "Selladores Y Espumas",
     "type": "PRODUCTO WEBER",
@@ -5746,16 +5581,10 @@
       "Secado": "3 mm cada 24 horas."
     },
     "restricciones": [
-      "aplicar en lugares sometidos al tránsito, para ello utilizar weber flex PU.",
-      "aplicar sobre vidrios laminados, metal corrosible, espejos, superficies",
-      "pintadas o alcalinas, acrílicos, plásticos a base de polietileno, polipropileno",
-      "y policarbonato.",
-      "No aplicar en áreas",
-      "sumergidas en agua.",
-      "No utilizar para el",
-      "sellado de fachadas de vidrio o cualquier uso que necesite resistencia",
-      "superficial, para ello utilizar weber",
-      "flex PU.",
+      "No aplicar en lugares sometidos al tránsito, para ello utilizar weber flex PU.",
+      "No aplicar sobre vidrios laminados, metal corrosible, espejos, superficies pintadas o alcalinas, acrílicos, plásticos a base de polietileno, polipropileno y policarbonato.",
+      "No aplicar en áreas sumergidas en agua.",
+      "No utilizar para el sellado de fachadas de vidrio o cualquier uso que necesite resistencia superficial, para ello utilizar weber flex PU.",
       "Ficha de producto",
       "FP weber silicona S.pdf",
       "Hoja Técnica",
@@ -5819,6 +5648,7 @@
   {
     "model": "weber super iggam",
     "description": "Revestimiento cementicio coloreado, de uso decorativo con terminación símil piedra, para interiores y exteriores.",
+    "descripcion_larga": "",
     "category": "Revestimientos cementícios",
     "subcategory": "Revestimientos Cementicios",
     "type": "PRODUCTO WEBER",
@@ -5832,8 +5662,7 @@
       "Nota: Estos resultados se han obtenido en ensayos realizados bajo condiciones"
     ],
     "advantages": [
-      "Terminación símil piedra.",
-      "Con mica incorporada.",
+      "Terminación símil piedra. Con mica incorporada.",
       "Excelente trabajabilidad"
     ],
     "specifications": {
@@ -5843,9 +5672,7 @@
       "Densidad de la masa": "2,00 gr/cm3"
     },
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No aplicar con exposición directa al sol o fuertes vientos.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No aplicar con exposición directa al sol o fuertes vientos.",
       "Ficha de producto",
       "FP_weber_super_iggam.pdf",
       "Hoja Técnica",
@@ -5902,6 +5729,7 @@
   {
     "model": "weber super pingüino",
     "description": "Mortero a base de cemento blanco, ideal para la fabricación de mosaicos, señalización vial, cordones, sendas peatonales, etc.",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Revoques Finos",
     "type": "PRODUCTO WEBER",
@@ -5918,8 +5746,7 @@
       "•\t 28 días: mínimo 50 MPa."
     ],
     "advantages": [
-      "Gran resistencia.",
-      "Compatible con todos los aditivos para morteros cementicios.",
+      "Gran resistencia. Compatible con todos los aditivos para morteros cementicios.",
       "Ficha de producto",
       "FP_weber_super_pinguino.pdf",
       "Hoja Técnica",
@@ -5964,7 +5791,8 @@
   },
   {
     "model": "weber superflex",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pared Exterior, Pared Interna, Piso, Piso existente",
+    "descripcion_larga": "Mezcla adhesiva flexible, ideal para colocación en fachadas o superficies expuestas a bruscos cambios térmicos (en exteriores y pisos radiantes). Para todo tipo de piezas, en pisos de alto tránsito.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Flexibles Y Grandes Formatos",
     "type": "PRODUCTO WEBER",
@@ -5977,15 +5805,10 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "Aditivado con ceresita",
-      "Posee tecnología nivel",
-      "Es flexible",
-      "Alta tolerancia térmica",
-      "Grandes formatos",
-      "Alto tránsito",
-      "Apto pisos radiantes y exteriores",
+      "Aditivado con ceresita Posee tecnología nivel Es flexible Alta tolerancia térmica Grandes formatos Alto tránsito Apto pisos radiantes y exteriores",
       "Aditivado con Ceresita",
       "Alta resistencia",
+      "Alta tolerancia térmica",
       "Flexible",
       "Impermeable"
     ],
@@ -6072,7 +5895,8 @@
   },
   {
     "model": "weber superformatos",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Adhesivo blanco flexible de altas prestaciones para porcellanatos XXL y mármol",
+    "descripcion_larga": "",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Flexibles Y Grandes Formatos",
     "type": "PRODUCTO WEBER",
@@ -6091,17 +5915,14 @@
       "Con Tecnología Nivel.",
       "Máxima adherencia.",
       "Ultra Resistente",
-      "Ideal para interior en pisos y paredes",
-      "Impermeable",
-      "Muy fino",
-      "Amigable con el medio ambiente",
-      "Sin descuelgue",
+      "Ideal para interior en pisos y paredes Impermeable Muy fino Amigable con el medio ambiente Sin descuelgue",
       "Aditivado con Ceresita",
       "Alta resistencia",
       "Excelente trabajabilidad",
       "Facil Nivelacion",
       "Flexible",
       "Gran rendimiento",
+      "Impermeable",
       "Alta tolerancia térmica",
       "Mejor trabajabilidad"
     ],
@@ -6210,6 +6031,7 @@
   {
     "model": "weber top",
     "description": "autonivelante en capa fina de secado rápido",
+    "descripcion_larga": "El substrato deberá estar asentado, seco, libre de polvo, grasa y demás impurezas que pudieran dificultar la adhesión. Si es necesario, el substrato deberá ser tratado mecánicamente mediante abrasión mecánica o granallado. Sobre carpetas cementicias aplicar weber primer diluido 1:1 con agua, con rodillo o pincel, cuidando de no dejar charcos. Esperar hasta que pierda el brillo superficial para aplicar el weber.floor top Sobre cerámica o carpetas con humedad ascendente, aplicar la imprimación con árido weber epoxi primer mediante rodillo, asegurándose que toda la superficie quede totalmente imprimado y luego espolvorar el árido.",
     "category": "Pisos",
     "subcategory": "Carpetas Y Nivelacion",
     "type": "PRODUCTO WEBER",
@@ -6302,7 +6124,8 @@
   },
   {
     "model": "weber veneciano",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Pegamento para colocación y tomado de juntas, ideal para venecitas y piezas traslucidas.",
+    "descripcion_larga": "Mezcla adhesiva apta para la colocación y el tomado de juntas de mosaicos venecianos y piezas con transparencia. Ideal para piscinas, fachadas, pisos y paredes en interior y exterior.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Especificos",
     "type": "PRODUCTO WEBER",
@@ -6311,12 +6134,10 @@
     "url": "https://www.ar.weber/colocacion-ceramicas-porcellanatos-y-pastinas/adhesivos-especificos/weber-veneciano",
     "technical_features": [],
     "advantages": [
-      "Aditivado con ceresita",
+      "Aditivado con ceresita Flexible Para colocación y tomado de juntas Antihongo Ideal uso decorativo e inmersión",
+      "Superficies sumergidas",
       "Flexible",
-      "Para colocación y tomado de juntas",
-      "Antihongo",
-      "Ideal uso decorativo e inmersión",
-      "Superficies sumergidas"
+      "Antihongo"
     ],
     "specifications": {},
     "restricciones": [
@@ -6386,7 +6207,8 @@
   },
   {
     "model": "weber veredas",
-    "description": "Colocación cerámicas, porcellanatos y pastinas",
+    "description": "Mezcla para asentar mosaicos graníticos o baldosones absorbentes.",
+    "descripcion_larga": "Mortero para colocar mosaicos graníticos, calcáreos o baldosones absorbentes, en capa gruesa sobre contrapisos interiores o exteriores.",
     "category": "Colocación de cerámicos y porcellanatos",
     "subcategory": "Adhesivos Especificos",
     "type": "PRODUCTO WEBER",
@@ -6399,10 +6221,7 @@
       "•\t Tiempo de puesta en servicio: 48/72hs."
     ],
     "advantages": [
-      "Rápida aplicación",
-      "Adherencia perfecta",
-      "Rapidez en obra",
-      "Mayor adherencia",
+      "Rápida aplicación Adherencia perfecta Rapidez en obra Mayor adherencia",
       "Velocidad y seguridad",
       "Resistencia al alto tránsito"
     ],
@@ -6473,7 +6292,8 @@
   },
   {
     "model": "weberdry frentes y muros con poliuretano",
-    "description": "weberdry frentes y muros con poliuretano",
+    "description": "Nombre anterior     weberdry frentes y muros PU",
+    "descripcion_larga": "",
     "category": "Impermeabilizantes",
     "subcategory": "Membranas Liquidas",
     "type": "PRODUCTO WEBER",
@@ -6489,11 +6309,7 @@
       "Nota: Estos resultados se han obtenido en ensayos realizados bajo condiciones"
     ],
     "advantages": [
-      "Resiste fisuras estáticas.Cualquier grieta o fisura con movimiento deberá ser reparada con weber flex PU ( Sellador poliuretánico),",
-      "Altamente elástico y con capacidad de puenteo y sellado de fisuras.",
-      "Posee una resistencia superior a la formación de algas y moho lo que otorga una mayor durabilidad al paso del tiempo y a la exposición directa a la intemperie.",
-      "Con gran poder cubritivo par aun acabado de calidad.",
-      "Gran resistencia a la intemperie y a los rayos UV."
+      "Resiste fisuras estáticas.Cualquier grieta o fisura con movimiento deberá ser reparada con weber flex PU ( Sellador poliuretánico), Altamente elástico y con capacidad de puenteo y sellado de fisuras. Posee una resistencia superior a la formación de algas y moho lo que otorga una mayor durabilidad al paso del tiempo y a la exposición directa a la intemperie. Con gran poder cubritivo par aun acabado de calidad. Gran resistencia a la intemperie y a los rayos UV."
     ],
     "specifications": {
       "Nota": "Estos resultados se han obtenido en ensayos realizados bajo condiciones",
@@ -6540,6 +6356,7 @@
   {
     "model": "weberdry techos",
     "description": "Nombre anterior     weberdry techos L",
+    "descripcion_larga": "",
     "category": "Impermeabilizantes",
     "subcategory": "Membranas Liquidas",
     "type": "PRODUCTO WEBER",
@@ -6548,10 +6365,7 @@
     "url": "https://www.ar.weber/impermeabilizantes/membranas-liquidas/weberdry-techos",
     "technical_features": [],
     "advantages": [
-      "Ideal para el mantenimiento de techos con problemas de filtración de agua.",
-      "Resiste fisuras estáticas. Reparar previamente todo tipo de fisura estructural, con selladores elásticos y flexibles.",
-      "Resistente a la intemperie y a los rayos UV.",
-      "Permeable al vapor de agua."
+      "Ideal para el mantenimiento de techos con problemas de filtración de agua. Resiste fisuras estáticas. Reparar previamente todo tipo de fisura estructural, con selladores elásticos y flexibles. Resistente a la intemperie y a los rayos UV. Permeable al vapor de agua."
     ],
     "specifications": {},
     "restricciones": [
@@ -6591,7 +6405,8 @@
   },
   {
     "model": "weberdry techos con poliuretano",
-    "description": "weberdry techos con poliuretano",
+    "description": "Nombre anterior     weberdry techos PU",
+    "descripcion_larga": "",
     "category": "Impermeabilizantes",
     "subcategory": "Membranas Liquidas",
     "type": "PRODUCTO WEBER",
@@ -6719,6 +6534,7 @@
   {
     "model": "weberdry techos fibrado",
     "description": "Nombre anterior     weberdry techos f",
+    "descripcion_larga": "",
     "category": "Impermeabilizantes",
     "subcategory": "Membranas Liquidas",
     "type": "PRODUCTO WEBER",
@@ -6734,11 +6550,7 @@
       "Nota: Estos resultados se han obtenido en ensayos realizados bajo condiciones"
     ],
     "advantages": [
-      "Ideal para terrazas transitables.",
-      "Resiste fisuras estáticas. Reparar previamente todo tipo de fisura estructural.",
-      "Resistente a la intemperie y a los rayos UV.",
-      "El agregado de fibras le permite puntear con mayor facilidad, porque las fibras distribuyen tensiones sobre mayor superficie, evitando microfisuras que se producen con el transcurso del tiempo",
-      "Permeable al vapor de agua."
+      "Ideal para terrazas transitables. Resiste fisuras estáticas. Reparar previamente todo tipo de fisura estructural. Resistente a la intemperie y a los rayos UV. El agregado de fibras le permite puntear con mayor facilidad, porque las fibras distribuyen tensiones sobre mayor superficie, evitando microfisuras que se producen con el transcurso del tiempo Permeable al vapor de agua."
     ],
     "specifications": {
       "Nota": "Estos resultados se han obtenido en ensayos realizados bajo condiciones",
@@ -6785,6 +6597,7 @@
   {
     "model": "webermur manga\n                  \n            Nuevo Producto",
     "description": "Mezcla de asiento hidrofugada con respaldo",
+    "descripcion_larga": "Verificar la horizontalidad de la base y fijar guías verticales como referencia para lograr una pared a plomo",
     "category": "Revoques y albañilería",
     "subcategory": "Mezclas De Asiento",
     "type": "PRODUCTO WEBER",
@@ -6869,6 +6682,7 @@
   {
     "model": "webermur multiuso",
     "description": "Nombre anterior     weber multiuso",
+    "descripcion_larga": "",
     "category": "Revoques y albañilería",
     "subcategory": "Mezclas De Asiento",
     "type": "PRODUCTO WEBER",
@@ -6882,9 +6696,7 @@
       "Como mortero de asiento: colocar la"
     ],
     "advantages": [
-      "Menor desperdicio",
-      "Mayor productividad.",
-      "Ideal como mezcla de asiento.",
+      "Menor desperdicio Mayor productividad. Ideal como mezcla de asiento.",
       "Hoja Técnica",
       "FT weber multiuso.pdf",
       "Hoja de Seguridad",
@@ -6953,6 +6765,7 @@
   {
     "model": "weberpint látex cielorrasos\n                  \n            Nuevo Producto",
     "description": "Látex acrílico mate de color blanco, para cielos rasos especialmente en cocinas, baños o ambientes con poca ventilación.",
+    "descripcion_larga": "Látex acrílico mate de color blanco, cuidadosamente formulado para ser utilizado en el pintado de cielos rasos especialmente en cocinas, baños o ambientes con poca ventilación. Es un recubrimiento de gran poder cubritivo con un salpicado reducido y de rápido secado. Buen poder antihongo residual.",
     "category": "Pinturas y preparación",
     "subcategory": "Pinturas",
     "type": "PRODUCTO WEBER",
@@ -7048,7 +6861,8 @@
   },
   {
     "model": "weberpint látex exterior-interior",
-    "description": "weberpint látex exterior-interior",
+    "description": "Látex acrílico mate blanco, cuidadosamente formulado",
+    "descripcion_larga": "Agite el contenido del envase con una varilla de forma de no incorporar aire hasta obtener un producto homogéneo y fluido. En caso de ser necesario agregar hasta un 10% de agua limpia para facilitar su aplicación según el método a utilizar. El producto se puede colorear mediante mezclas con entonadores universales.",
     "category": "Pinturas y preparación",
     "subcategory": "Pinturas",
     "type": "PRODUCTO WEBER",
@@ -7129,6 +6943,7 @@
   {
     "model": "weberpint látex interior mate",
     "description": "Recubrimiento desarrollado con materias primas cuidadosamente",
+    "descripcion_larga": "Agite el contenido del envase con una varilla de forma de no incorporar aire hasta obtener un producto homogéneo y fluido. En caso de ser necesario agregar hasta un 10% de agua limpia para facilitar su aplicación según el método a utilizar. El producto se puede colorear mediante mezclas con entonadores universales o entre colores preparados.",
     "category": "Pinturas y preparación",
     "subcategory": "Pinturas",
     "type": "PRODUCTO WEBER",
@@ -7225,6 +7040,7 @@
   {
     "model": "weberplast base color",
     "description": "Pintura imprimante a base de polímeros acrílicos, para regularizar las diferentes absorciones del soporte.",
+    "descripcion_larga": "",
     "category": "Revestimientos plásticos",
     "subcategory": "Revestimientos Plasticos",
     "type": "PRODUCTO WEBER",
@@ -7233,9 +7049,7 @@
     "url": "https://www.ar.weber/revestimiento-de-paredes/revestimientos-plasticos/weberplast-base-color",
     "technical_features": [],
     "advantages": [
-      "Impermeable.",
-      "Antihongos y antialgas.",
-      "Listo para usar.",
+      "Impermeable. Antihongos y antialgas. Listo para usar.",
       "Antihongo",
       "Antialgas",
       "Fácil aplicacion",
@@ -7243,9 +7057,7 @@
     ],
     "specifications": {},
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No aplicar con exposición directa al sol o fuertes vientos.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No aplicar con exposición directa al sol o fuertes vientos.",
       "Ficha de producto",
       "FP_weberplast_base_color.pdf",
       "Hoja Técnica",
@@ -7314,6 +7126,7 @@
   {
     "model": "weberplast granitex",
     "description": "Revestimiento a base de polímeros acrílicos, de uso decorativo, para interiores y exteriores.",
+    "descripcion_larga": "",
     "category": "Revestimientos plásticos",
     "subcategory": "Revestimientos Plasticos",
     "type": "PRODUCTO WEBER",
@@ -7322,9 +7135,7 @@
     "url": "https://www.ar.weber/revestimiento-de-paredes/revestimientos-plasticos/weberplast-granitex",
     "technical_features": [],
     "advantages": [
-      "Impermeable.",
-      "Antihongos y antialgas.",
-      "Listo para usar.",
+      "Impermeable. Antihongos y antialgas. Listo para usar.",
       "Antialgas",
       "Antihongo",
       "Fácil aplicacion",
@@ -7333,9 +7144,7 @@
     ],
     "specifications": {},
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No aplicar con exposición directa al sol o fuertes vientos.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No aplicar con exposición directa al sol o fuertes vientos.",
       "Ficha de producto",
       "FP_weberplast_granitex.pdf",
       "Hoja Técnica",
@@ -7408,6 +7217,7 @@
   {
     "model": "weberplast llaneado",
     "description": "Revestimiento a base de polímeros acrílicos, de uso decorativo, para interiores y exteriores.",
+    "descripcion_larga": "",
     "category": "Revestimientos plásticos",
     "subcategory": "Revestimientos Plasticos",
     "type": "PRODUCTO WEBER",
@@ -7416,9 +7226,7 @@
     "url": "https://www.ar.weber/revestimiento-de-paredes/revestimientos-plasticos/weberplast-llaneado",
     "technical_features": [],
     "advantages": [
-      "Impermeable.",
-      "Antihongos y antialgas.",
-      "Listo para usar.",
+      "Impermeable. Antihongos y antialgas. Listo para usar.",
       "Antialgas",
       "Antihongo",
       "Fácil aplicacion",
@@ -7427,9 +7235,7 @@
     ],
     "specifications": {},
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No aplicar con exposición directa al sol o fuertes vientos.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No aplicar con exposición directa al sol o fuertes vientos.",
       "Ficha de producto",
       "FP_weberplast_LL.pdf",
       "Hoja Técnica",
@@ -7506,6 +7312,7 @@
   {
     "model": "weberplast rodillado",
     "description": "Revestimiento a base de polímeros acrílicos, de uso decorativo, para interiores y exteriores.",
+    "descripcion_larga": "",
     "category": "Revestimientos plásticos",
     "subcategory": "Revestimientos Plasticos",
     "type": "PRODUCTO WEBER",
@@ -7517,11 +7324,10 @@
       "Densidad: 1,7 kg/L"
     ],
     "advantages": [
-      "Impermeable",
-      "Antihongos y antialgas",
-      "Listo para usar",
+      "Impermeable Antihongos y antialgas Listo para usar",
       "Fácil aplicacion",
-      "Gran rendimiento"
+      "Gran rendimiento",
+      "Listo para usar"
     ],
     "specifications": {
       "exteriores. Colores": "ver carta de colores.",
@@ -7592,7 +7398,8 @@
   },
   {
     "model": "weberplast rulato travertino fino",
-    "description": "weberplast rulato travertino fino",
+    "description": "Revestimiento a base de polímeros acrílicos, de uso decorativo, para interiores y exteriores.",
+    "descripcion_larga": "",
     "category": "Revestimientos plásticos",
     "subcategory": "Revestimientos Plasticos",
     "type": "PRODUCTO WEBER",
@@ -7610,9 +7417,7 @@
       "Revisión: 28.07.2025"
     ],
     "advantages": [
-      "Impermeable.",
-      "Antihongos y antialgas.",
-      "Listo para usar.",
+      "Impermeable. Antihongos y antialgas. Listo para usar.",
       "Antialgas",
       "Antihongo",
       "Fácil aplicacion",
@@ -7632,9 +7437,7 @@
       "SECCIÓN 2": "Identificación de los peligros"
     },
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No aplicar con exposición directa al sol o fuertes vientos.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No aplicar con exposición directa al sol o fuertes vientos.",
       "Ficha de producto",
       "FP_weberplast_rt_1.pdf",
       "Hoja Técnica",
@@ -7705,7 +7508,8 @@
   },
   {
     "model": "weberplast rulato travertino grueso",
-    "description": "weberplast rulato travertino grueso",
+    "description": "Revestimiento a base de polímeros acrílicos, de uso decorativo, para interiores y exteriores.",
+    "descripcion_larga": "",
     "category": "Revestimientos plásticos",
     "subcategory": "Revestimientos Plasticos",
     "type": "PRODUCTO WEBER",
@@ -7723,9 +7527,7 @@
       "CAS: 26530-20-1 2-octil-2H-isotiazol-3-ona"
     ],
     "advantages": [
-      "Impermeable.",
-      "Antihongos y antialgas.",
-      "Listo para usar.",
+      "Impermeable. Antihongos y antialgas. Listo para usar.",
       "Antialgas",
       "Antihongo",
       "Impermeable",
@@ -7744,9 +7546,7 @@
       "SECCIÓN 2": "Identificación de los peligros"
     },
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No aplicar con exposición directa al sol o fuertes vientos.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No aplicar con exposición directa al sol o fuertes vientos.",
       "Ficha de producto",
       "FP_weberplast_rt_1.pdf",
       "Hoja Técnica",
@@ -7813,7 +7613,8 @@
   },
   {
     "model": "weberplast rulato travertino medio",
-    "description": "weberplast rulato travertino medio",
+    "description": "Revestimiento a base de polímeros acrílicos, de uso decorativo, para interiores y exteriores.",
+    "descripcion_larga": "",
     "category": "Revestimientos plásticos",
     "subcategory": "Revestimientos Plasticos",
     "type": "PRODUCTO WEBER",
@@ -7831,9 +7632,7 @@
       "Nombre comercial: weberplast rulato travertino medio"
     ],
     "advantages": [
-      "Impermeable.",
-      "Antihongos y antialgas.",
-      "Listo para usar.",
+      "Impermeable. Antihongos y antialgas. Listo para usar.",
       "Antialgas",
       "Antihongo",
       "Fácil aplicacion",
@@ -7853,9 +7652,7 @@
       "SECCIÓN 2": "Identificación de los peligros"
     },
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No aplicar con exposición directa al sol o fuertes vientos.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No aplicar con exposición directa al sol o fuertes vientos.",
       "Ficha de producto",
       "FP_weberplast_rt_1.pdf",
       "Hoja Técnica",
@@ -7928,6 +7725,7 @@
   {
     "model": "weberprim IC52 fibrado",
     "description": "Nombre anterior     IC 52 fibrado",
+    "descripcion_larga": "",
     "category": "Pisos",
     "subcategory": "Productos Complementarios",
     "type": "PRODUCTO WEBER",
@@ -7945,9 +7743,7 @@
       "EN CASO DE CONTACTO CON LOS OJOS: Enjuagar con agua cuidadosamente durante varios minutos. Quitar las"
     ],
     "advantages": [
-      "Gran adherencia.",
-      "Impermeable.",
-      "Permite la aplicación de revoques nuevos sobre viejos.",
+      "Gran adherencia. Impermeable. Permite la aplicación de revoques nuevos sobre viejos.",
       "Impermeable"
     ],
     "specifications": {
@@ -7962,10 +7758,7 @@
       "HOSPITAL POSADAS": "(011) 4654 6648 / (011) 4658 7777"
     },
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No recubrir luego de pasadas las 48 hs de aplicación.",
-      "No mojar previamente.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No recubrir luego de pasadas las 48 hs de aplicación. No mojar previamente.",
       "Ficha de producto",
       "FP - weberprim IC52 fibrado - 2025v01",
       "Hoja de Seguridad",
@@ -8022,6 +7815,7 @@
   {
     "model": "webertec ceresita",
     "description": "Impermeabilizante ceresita lista para usar",
+    "descripcion_larga": "",
     "category": "Impermeabilizantes",
     "subcategory": "Soluciones Cementicias",
     "type": "PRODUCTO WEBER",
@@ -8050,10 +7844,7 @@
       "•\t Tiempo máx. de exposición": "20 min."
     },
     "restricciones": [
-      "No agregar ningún tipo de aditivo.",
-      "No soporta presión de agua.",
-      "No colocar weber.tec ceresita en interiores o lugares sin ventilación.",
-      "No dejar weber.tec ceresita en contacto directo con el sol para evitar el quemado.",
+      "No agregar ningún tipo de aditivo. No soporta presión de agua. No colocar weber.tec ceresita en interiores o lugares sin ventilación. No dejar weber.tec ceresita en contacto directo con el sol para evitar el quemado.",
       "Ficha de producto",
       "FP_webertec_ceresita.pdf",
       "Hoja Técnica",
@@ -8130,6 +7921,7 @@
   {
     "model": "webertec membrana",
     "description": "Impermeabilizante bicomponente flexible bajo solado",
+    "descripcion_larga": "",
     "category": "Impermeabilizantes",
     "subcategory": "Soluciones Cementicias",
     "type": "PRODUCTO WEBER",
@@ -8156,7 +7948,7 @@
       "•\t Espesor total": "2 mm."
     },
     "restricciones": [
-      "No aplicar directamente sobre membranas asfálticas y aluminizadas. Se debe remover la superficie y retirar todo el material, limpiar con weber limpiador cerámicos, enjuagar y dejar secar completamente, antes de aplicarweber.tec membrana.",
+      "No aplicar directamente sobre membranas asfálticas y aluminizadas. Se debe remover la superficie y retirar todo el material, limpiar con weber limpiador cerámicos, enjuagar y dejar secar completamente, antes de aplicarweber.tec membrana.",
       "Ficha de producto",
       "FP_webertec_membrana.pdf",
       "Hoja Técnica",
@@ -8237,6 +8029,7 @@
   {
     "model": "webertherm aislone",
     "description": "Mortero liviano a base de EPS, con gran capacidad de aislamiento termoacústico. Formulado especialmente para ser aplicado como revoque en paredes.",
+    "descripcion_larga": "",
     "category": "Aislación térmica",
     "subcategory": "Revoques Termoaislantes",
     "type": "PRODUCTO WEBER",
@@ -8254,9 +8047,7 @@
       "aplicación por capa: 40 mm."
     ],
     "advantages": [
-      "Gran capacidad de aislación termoacústica.",
-      "Fácil aplicación.",
-      "Hasta 4cm en una sola aplicación."
+      "Gran capacidad de aislación termoacústica. Fácil aplicación. Hasta 4cm en una sola aplicación."
     ],
     "specifications": {
       "Conductividad térmica (λ)": "0,042 W/(m·k).",
@@ -8268,10 +8059,7 @@
       "aplicación por capa": "40 mm."
     },
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No agregar cemento ni ningún tipo de aditivo.",
-      "No dejar expuesto en exteriores, siempre debe revestirse.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No agregar cemento ni ningún tipo de aditivo. No dejar expuesto en exteriores, siempre debe revestirse.",
       "Ficha de producto",
       "FP_webertherm_aislone.pdf",
       "Hoja Técnica",
@@ -8318,7 +8106,8 @@
   },
   {
     "model": "webertherm base coat",
-    "description": "Revoque base y mortero adhesivo ideal para sistema EIFS.",
+    "description": "Fachada, Pared Exterior, Pared pintada, Revestimiento Antiguo",
+    "descripcion_larga": "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias, heladas o tiempos muy húmedos. No agregar cemento ni ningún tipo de aditivo.",
     "category": "Revoques y albañilería",
     "subcategory": "Nivelacion Y Renovacion",
     "type": "PRODUCTO WEBER",
@@ -8417,6 +8206,7 @@
   {
     "model": "webertherm cabezal SBH-T",
     "description": "Cabezal de PVC para sujeción de placa de EPS sobre soportes de construcción en seco.",
+    "descripcion_larga": "Asegurarse que las placas de EPS estén perfectamente niveladas. Si hubiera espacio entre placas, rellenar con weber espuma",
     "category": "Aislación térmica",
     "subcategory": "Sistema Eifs",
     "type": "PRODUCTO WEBER",
@@ -8491,6 +8281,7 @@
   {
     "model": "webertherm climamur",
     "description": "Mortero termoaislante liviano, formulado especialmente para ser aplicado como revoque en paredes.",
+    "descripcion_larga": "",
     "category": "Aislación térmica",
     "subcategory": "Revoques Termoaislantes",
     "type": "PRODUCTO WEBER",
@@ -8505,9 +8296,7 @@
       "Proyectado:"
     ],
     "advantages": [
-      "Terminación grueso fratasado.",
-      "Proyectable o manual.",
-      "Fácil aplicación.",
+      "Terminación grueso fratasado. Proyectable o manual. Fácil aplicación.",
       "Fácil aplicacion",
       "Aislación térmica"
     ],
@@ -8518,10 +8307,7 @@
       "Proyectada": "regular el caudal de la"
     },
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias, heladas o tiempos muy húmedos.",
-      "No agregar cemento ni ningún tipo de aditivo.",
-      "No aplicar más de 2 cm de espesor por capa.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias, heladas o tiempos muy húmedos. No agregar cemento ni ningún tipo de aditivo. No aplicar más de 2 cm de espesor por capa.",
       "Ficha de producto",
       "FP_webertherm_climamur.pdf",
       "Hoja Técnica",
@@ -8584,6 +8370,7 @@
   {
     "model": "webertherm espiga H3",
     "description": "Anclaje de golpeo de núcleo de plástico reforzado, para soportes tradicionales. Con cabezal flexible para la fijación de materiales aislantes en los sistemas webertherm. Longitud: 95 y 115 mm (según el espesor de la placa).",
+    "descripcion_larga": "",
     "category": "Aislación térmica",
     "subcategory": "Sistema Eifs",
     "type": "PRODUCTO WEBER",
@@ -8599,8 +8386,7 @@
       "Longitud espiga: 95 y 115 mm"
     ],
     "advantages": [
-      "-Evita puentes térmicos",
-      "-No afecta al revoque",
+      "-Evita puentes térmicos -No afecta al revoque",
       "Aislación térmica",
       "Fácil aplicacion",
       "Facil Nivelacion",
@@ -8675,6 +8461,7 @@
   {
     "model": "webertherm junta dilatación",
     "description": "Perfil de PVC con malla de fibra de vidrio alcalino-resistente, para juntas de dilatación verticales y horizontales de la fachada en los sistemas webertherm.",
+    "descripcion_larga": "",
     "category": "Aislación térmica",
     "subcategory": "Sistema Eifs",
     "type": "PRODUCTO WEBER",
@@ -8689,8 +8476,7 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "-No afecta al revoque",
-      "-Contiene malla de fibra de vidrio incorporada para solapar fácilmente",
+      "-No afecta al revoque -Contiene malla de fibra de vidrio incorporada para solapar fácilmente",
       "Fácil aplicacion",
       "Gran vida util",
       "Flexible"
@@ -8748,6 +8534,7 @@
   {
     "model": "webertherm malla 160",
     "description": "Malla de fibra de vidrio de 160 gr/m2 alcalino resistente, con apertura de entramado de 3,5x3,8 mm.",
+    "descripcion_larga": "",
     "category": "Aislación térmica",
     "subcategory": "Sistema Eifs",
     "type": "PRODUCTO WEBER",
@@ -8762,9 +8549,7 @@
       "línea de consulta Servi Plus (Tel: +54 11 5173 4100) /"
     ],
     "advantages": [
-      "-Flexible",
-      "-No produce corrosión",
-      "-Compatible con todos los revoques",
+      "-Flexible -No produce corrosión -Compatible con todos los revoques",
       "Flexible",
       "No produce corrosión",
       "Alta resistencia"
@@ -8824,6 +8609,7 @@
   {
     "model": "webertherm perfil arranque",
     "description": "Perfil de aluminio en forma de \"U\", utilizado como arranque horizontal en zócalos de los sistemas webertherm.",
+    "descripcion_larga": "-Verificar que las paredes estén a plomo",
     "category": "Aislación térmica",
     "subcategory": "Sistema Eifs",
     "type": "PRODUCTO WEBER",
@@ -8838,8 +8624,7 @@
       "Espesor del aislante: 30 y 50 mm"
     ],
     "advantages": [
-      "-Excelente estabilidad estructural",
-      "-Permite un mejor asentamiento de las placas",
+      "-Excelente estabilidad estructural -Permite un mejor asentamiento de las placas",
       "Facil Nivelacion",
       "No produce corrosión",
       "Revestible"
@@ -8904,6 +8689,7 @@
   {
     "model": "webertherm perfil esquinero",
     "description": "Perfil de PVC con malla de fibra de vidrio, para la conformación de aristas en los sistemas webertherm.",
+    "descripcion_larga": "",
     "category": "Aislación térmica",
     "subcategory": "Sistema Eifs",
     "type": "PRODUCTO WEBER",
@@ -8919,8 +8705,7 @@
       "Gramaje de la malla: 165 g/m"
     ],
     "advantages": [
-      "-Ayuda a materializar las aristas",
-      "-No afecta al revoque",
+      "-Ayuda a materializar las aristas -No afecta al revoque",
       "Fácil aplicacion",
       "Facil Nivelacion",
       "Gran vida util"
@@ -8987,6 +8772,7 @@
   {
     "model": "webertherm perfil goterón",
     "description": "Perfil goterón de PVC con malla de fibra de vidrio, para dinteles en sistemas webertherm.",
+    "descripcion_larga": "",
     "category": "Aislación térmica",
     "subcategory": "Sistema Eifs",
     "type": "PRODUCTO WEBER",
@@ -9002,8 +8788,7 @@
       "Gramaje de la malla: 160 g/m"
     ],
     "advantages": [
-      "-Actua como corta gota en dinteles de puertas y ventanas",
-      "-No afecta al revoque",
+      "-Actua como corta gota en dinteles de puertas y ventanas -No afecta al revoque",
       "Fácil aplicacion",
       "Facil Nivelacion",
       "Gran vida util",
@@ -9074,6 +8859,7 @@
   {
     "model": "webertherm placa EPS",
     "description": "Placas de poliestireno expandido para sistema webertherm EIFS.",
+    "descripcion_larga": "",
     "category": "Aislación térmica",
     "subcategory": "Sistema Eifs",
     "type": "PRODUCTO WEBER",
@@ -9148,6 +8934,7 @@
   {
     "model": "webertherm promex S",
     "description": "Mortero estructural con ceresita, de alta resistencia, diseñado especialmente para aplicar sobre paneles de poliestireno expandido (EPS) con malla de acero.",
+    "descripcion_larga": "• Los paneles deberán estar colocados siguiendo estrictamente las especificaciones del fabricante. (encastre entre paneles, mallas de refuerzo, apuntalamientos, etc.). • Antes, durante y después de la proyección del revoque será necesario verificar la rigidización de los paneles, evitando el movimiento de los mismos. • La superficie debe ser estable, limpia, seca, libre de polvo y todo resto de material.",
     "category": "Aislación térmica",
     "subcategory": "Revoques Estructurales",
     "type": "PRODUCTO WEBER",
@@ -9165,9 +8952,7 @@
       "•\t Compresión 28 días (Mpa): 20"
     ],
     "advantages": [
-      "Con ceresita.",
-      "Gran resistencia a la compresión.",
-      "Ideal para paneles de EPS.",
+      "Con ceresita. Gran resistencia a la compresión. Ideal para paneles de EPS.",
       "Aditivado con Ceresita",
       "Fácil aplicacion",
       "Gran rendimiento",
@@ -9185,9 +8970,7 @@
       "-750 l/h. Manual": "mezclar con xx lts de"
     },
     "restricciones": [
-      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C.",
-      "No aplicar con lluvias o heladas.",
-      "No agregar cemento ni ningún tipo de aditivo.",
+      "No aplicar con temperaturas inferiores a 10°C ni superiores a 30°C. No aplicar con lluvias o heladas. No agregar cemento ni ningún tipo de aditivo.",
       "Ficha de producto",
       "FP_weber_promex_S.pdf",
       "Hoja de Seguridad",

@@ -121,7 +121,7 @@ Abre tu navegador de preferencia e ingresa a:
 Para más información sobre el mantenimiento, desarrollo y escalado de la aplicación, puedes consultar los siguientes documentos técnicos ubicados en la carpeta `/docs`:
 
 * 📘 **[Manual de Usuario](./docs/MANUAL_USUARIO.md):** Manual detallado de instalación, configuración del LLM y uso de calculadoras.
-* 🛠️ **[Manual de Escalamiento](./docs/MANUAL_ESCALAMIENTO.md):** Guía paso a paso sobre cómo registrar e instalar una nueva marca y catálogo de productos.
+* 🛠️ **[Manual de Instalación](./docs/MANUAL_INSTALACION.md):** Requisitos del sistema, pasos de instalación, configuración del entorno y mantenimiento del catálogo.
 * 🧠 **[Manual Técnico del Orquestador](./docs/MANUAL_TECNICO_ORQUESTADOR.md):** Explicación del funcionamiento de la lógica de decisiones e intenciones híbridas.
 * 📐 **[Manual Técnico del Sistema Experto Weber](./docs/MANUAL_TECNICO_SISTEMA_EXPERTO_WEBBER.md):** Detalle de fórmulas y lógica de cómputo de materiales de construcción.
 

@@ -327,7 +327,20 @@ class WeberScraper:
             cuerpo = soup.find("main") or soup.find("article") or soup.find("div", {"id": "main-content"})
             
             if cuerpo:
-                texto_sucio = cuerpo.get_text(separator="\n", strip=True)
+                # Clonamos para no alterar el soup original
+                cuerpo_clon = BeautifulSoup(str(cuerpo), "html.parser")
+                
+                # Reemplazar <br> por un espacio
+                for br in cuerpo_clon.find_all("br"):
+                    br.replace_with(" ")
+                    
+                # Reemplazar saltos de línea y múltiples espacios internos por un único espacio en los elementos de bloque
+                for tag in cuerpo_clon.find_all(["p", "li", "h1", "h2", "h3", "h4", "h5", "h6", "td", "th"]):
+                    for text_node in tag.find_all(string=True):
+                        # Reemplazar múltiples espacios y saltos de línea por un único espacio
+                        text_node.replace_with(re.sub(r"\s+", " ", text_node))
+                
+                texto_sucio = cuerpo_clon.get_text(separator="\n", strip=True)
                 lineas = [l.strip() for l in texto_sucio.split('\n') if len(l.strip()) > 3]
                 datos["descripcion"] = " ".join(lineas[:3]) # Primeras líneas como intro
                 datos["datos_tecnicos"] = "\n".join(lineas) # Todo el resto

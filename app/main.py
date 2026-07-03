@@ -14,6 +14,7 @@ import json
 from RAG_engine.query.rag_llm_weber import search_and_answer as weber_search_and_answer
 from app.modules.expertSystem.expert_engine_weber import WeberExpertEngine #Agregamos esto
 import math
+import re
 from math import ceil
 from bisect import bisect_left
 from app.modules.expertSystem.expert_engine_peisa import RADIATOR_MODELS
@@ -304,6 +305,7 @@ class ChatRequest(BaseModel):
     conversation_id: Optional[str] = None
     last_active_brand: Optional[str] = None
     last_active_product: Optional[str] = None
+    history: Optional[List[Dict[str, str]]] = None
 
 
 intent_classifier = IntentClassifier()
@@ -361,46 +363,82 @@ def _get_neutral_response(message: str) -> str:
     return "¡Hola! Soy **Soldy**, el asistente inteligente de **SOLDASUR**. Puedo ayudarte con productos de calefacción **PEISA** o de construcción **Weber**. ¿Sobre qué te gustaría consultar hoy?"
 
 
+def _normalize_text(text: str) -> str:
+    """Normaliza el texto quitando acentos, mayúsculas y caracteres especiales."""
+    if not text:
+        return ""
+    t = text.lower()
+    replacements = {
+        "á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u",
+        "ü": "u", "ñ": "n"
+    }
+    for k, v in replacements.items():
+        t = t.replace(k, v)
+    # Reemplazar signos de puntuación comunes por espacios para aislar palabras
+    t = re.sub(r"[^\w\s]", " ", t)
+    t = re.sub(r"\s+", " ", t)
+    return t.strip()
+
+
 def _filter_mentioned_products(text: str, products: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
     Filtra los productos devueltos por el RAG para que solo se incluyan
-    los que realmente son nombrados o mencionados por el modelo en su respuesta.
+    los que realmente son nombrados o mencionados por el modelo en su respuesta
+    usando una coincidencia exacta inteligente.
     """
     if not text or not products:
         return []
     
-    text_lower = text.lower()
+    text_norm = _normalize_text(text)
     mentioned = []
     
-    # Ordenar por longitud de nombre de modelo (más largos primero) para evitar coincidencias parciales tempranas
+    # Ordenar por longitud de nombre de modelo (más largos primero)
     sorted_products = sorted(products, key=lambda x: len(x.get("model", "")), reverse=True)
     
     for p in sorted_products:
         model = p.get("model", "")
         if not model:
             continue
-        model_lower = model.lower().strip()
+        model_norm = _normalize_text(model)
         
-        # 1. Coincidencia exacta de subcadena
-        if model_lower in text_lower:
+        matched = False
+        
+        # 1. Si el modelo empieza con "weber" (incluyendo weberdry, webertec, etc.), permitir variaciones del prefijo y nombres compuestos cortos
+        if model_norm.startswith("weber") or model_norm.startswith("weberdry") or model_norm.startswith("webertec"):
+            clean = model_norm
+            for prefix in ["weberdry", "webertec", "weber"]:
+                if clean.startswith(prefix):
+                    clean = clean[len(prefix):].strip()
+                    break
+            
+            # Coincidencia completa
+            pattern_full = rf"\bweber\s*(?:tec|col|dry|floor|plast|therm|mur)?\s*{re.escape(clean)}\b"
+            if re.search(pattern_full, text_norm):
+                matched = True
+            else:
+                # Coincidencia por palabra clave identificadora (ej: weber frentes para weberdry frentes y muros...)
+                clean_words = [w for w in clean.split() if len(w) > 3]
+                if clean_words:
+                    first_keyword = clean_words[0]
+                    pattern_short = rf"\bweber\s*(?:tec|col|dry|floor|plast|therm|mur)?\s*{re.escape(first_keyword)}\b"
+                    if re.search(pattern_short, text_norm):
+                        matched = True
+        # 2. Si empieza con "tacuru ", exigir el prefijo tacuru
+        elif model_norm.startswith("tacuru "):
+            clean = model_norm.replace("tacuru ", "").strip()
+            pattern = rf"\btacuru\s*{re.escape(clean)}\b"
+            if re.search(pattern, text_norm):
+                matched = True
+        # 3. Fallback general para coincidencia de palabra completa
+        else:
+            pattern = rf"\b{re.escape(model_norm)}\b"
+            if re.search(pattern, text_norm):
+                matched = True
+                
+        if matched:
+            model_lower = model.lower().strip()
             if not any(m.get("model", "").lower().strip() == model_lower for m in mentioned):
                 mentioned.append(p)
-        else:
-            # 2. Coincidencia parcial inteligente (sin el prefijo de la marca 'weber' o 'peisa')
-            # Ej: Si el modelo es "weber flex porcellanato" y el texto dice "weber flex" o "flex porcellanato"
-            model_clean = model_lower.replace("weber ", "").replace("peisa ", "").strip()
-            if len(model_clean) > 3 and model_clean in text_lower:
-                if not any(m.get("model", "").lower().strip() == model_lower for m in mentioned):
-                    mentioned.append(p)
-            else:
-                # 3. Probar si palabras clave específicas del modelo están presentes en el texto
-                parts = [part for part in model_clean.replace(".", " ").replace("-", " ").split() if len(part) > 3]
-                key_keywords = ["ceresita", "autonivela", "llaneado", "travertino", "microcolor", "microbase", "aquaboard", "solidtex"]
-                for part in parts:
-                    if part in key_keywords and part in text_lower:
-                        if not any(m.get("model", "").lower().strip() == model_lower for m in mentioned):
-                            mentioned.append(p)
-                            break
 
     # Conservar el orden original de relevancia en el que venían
     ordered_mentioned = [p for p in products if any(m.get("model") == p.get("model") for m in mentioned)]
@@ -448,7 +486,7 @@ async def api_chat(request: ChatRequest):
             
             if formatter == "weber":
                 # Ruta RAG autogestionada (ej: Weber, que maneja búsqueda y respuesta juntas)
-                result = rag_func(message, last_active_product=request.last_active_product)
+                result = rag_func(message, last_active_product=request.last_active_product, history=request.history)
                 response_text = result.get("respuesta", "")
                 productos_weber = result.get("productos", [])
                 calculo = result.get("calculo")
@@ -500,7 +538,7 @@ async def api_chat(request: ChatRequest):
                         top_items.insert(0, p_activo)
                         effective_last_active = request.last_active_product
 
-                respuesta = rag_func(message, top_items, last_active_product=effective_last_active)
+                respuesta = rag_func(message, top_items, last_active_product=effective_last_active, history=request.history)
                 
                 # Asegurar que los productos tengan la marca asociada
                 products_formatted = []
@@ -522,9 +560,12 @@ async def api_chat(request: ChatRequest):
             else:
                 # Formateador genérico fallback para nuevas marcas
                 try:
-                    result = rag_func(message, last_active_product=request.last_active_product)
+                    result = rag_func(message, last_active_product=request.last_active_product, history=request.history)
                 except TypeError:
-                    result = rag_func(message)
+                    try:
+                        result = rag_func(message, last_active_product=request.last_active_product)
+                    except TypeError:
+                        result = rag_func(message)
                 
                 if isinstance(result, dict):
                     text = result.get("respuesta") or result.get("answer") or result.get("text") or ""

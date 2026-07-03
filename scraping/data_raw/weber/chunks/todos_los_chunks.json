@@ -2430,6 +2430,36 @@
     }
   },
   {
+    "id": "webermur_multiuso_descripcion",
+    "producto": "webermur multiuso",
+    "categoria": "",
+    "url": "https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso",
+    "tipo": "descripcion",
+    "texto": "Producto: webermur multiuso\nCategoría: \nURL: https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso\n\nDescripción: Inicio Revocar paredes Mezclas de asiento",
+    "metadata": {
+      "fuente": "ar.weber",
+      "tipo": "descripcion",
+      "producto": "webermur multiuso",
+      "categoria": "",
+      "url": "https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso"
+    }
+  },
+  {
+    "id": "webermur_multiuso_resumen",
+    "producto": "webermur multiuso",
+    "categoria": "",
+    "url": "https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso",
+    "tipo": "resumen",
+    "texto": "Producto: webermur multiuso\nCategoría: \nURL: https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso\n\n# webermur multiuso\nInicio Revocar paredes Mezclas de asiento",
+    "metadata": {
+      "fuente": "ar.weber",
+      "tipo": "resumen",
+      "producto": "webermur multiuso",
+      "categoria": "",
+      "url": "https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso"
+    }
+  },
+  {
     "id": "weber_block_descripcion",
     "producto": "weber block",
     "categoria": "",
@@ -2577,36 +2607,6 @@
       "producto": "webermur manga\n                  \n            Nuevo Producto",
       "categoria": "",
       "url": "https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-manga"
-    }
-  },
-  {
-    "id": "webermur_multiuso_descripcion",
-    "producto": "webermur multiuso",
-    "categoria": "",
-    "url": "https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso",
-    "tipo": "descripcion",
-    "texto": "Producto: webermur multiuso\nCategoría: \nURL: https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso\n\nDescripción: Inicio Revocar paredes Mezclas de asiento",
-    "metadata": {
-      "fuente": "ar.weber",
-      "tipo": "descripcion",
-      "producto": "webermur multiuso",
-      "categoria": "",
-      "url": "https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso"
-    }
-  },
-  {
-    "id": "webermur_multiuso_resumen",
-    "producto": "webermur multiuso",
-    "categoria": "",
-    "url": "https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso",
-    "tipo": "resumen",
-    "texto": "Producto: webermur multiuso\nCategoría: \nURL: https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso\n\n# webermur multiuso\nInicio Revocar paredes Mezclas de asiento",
-    "metadata": {
-      "fuente": "ar.weber",
-      "tipo": "resumen",
-      "producto": "webermur multiuso",
-      "categoria": "",
-      "url": "https://www.ar.weber/revocar-paredes/mezclas-de-asiento/webermur-multiuso"
     }
   },
   {

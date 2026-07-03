@@ -1,5 +1,5 @@
 const conversationHistory = [];
-const MAX_HISTORY_LENGTH = 10; // Mantener últimos 10 mensajes para no saturar el contexto
+const MAX_HISTORY_LENGTH = 14; // Mantener últimos 14 mensajes (7 ciclos completos) para no saturar el contexto
 let conversationContext = ''; // Resumen del contexto de la conversación
 let waitingForCity = false; // Estado para saber si estamos esperando que el usuario elija ciudad
 let selectedProductForConsult = null; // Producto elegido para consulta comercial
@@ -291,7 +291,8 @@ async function callOllama(userMessage) {
         message: userMessage,
         conversation_id: conversationId,
         last_active_brand: lastActiveBrand,
-        last_active_product: lastActiveProduct
+        last_active_product: lastActiveProduct,
+        history: conversationHistory.slice(-14)
     };
 
     const response = await fetch(BACKEND_URL, {
