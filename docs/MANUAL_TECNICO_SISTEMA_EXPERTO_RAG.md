@@ -6,7 +6,7 @@ Este documento detalla todas las reglas de negocio, diagramas de flujo, nodos de
 
 ## 1. Sistema Experto de Calefacción PEISA (Backend)
 
-Gestionado en el backend de Python por [expert_engine_peisa.py](./app/modules/expertSystem/expert_engine_peisa.py) consumiendo las reglas conversacionales del archivo de base de conocimientos [advisor_knowledge_base_peisa.json](./app/advisor_knowledge_base_peisa.json).
+Gestionado en el backend de Python por [expert_engine_peisa.py](../app/modules/expertSystem/expert_engine_peisa.py) consumiendo las reglas conversacionales del archivo de base de conocimientos [advisor_knowledge_base_peisa.json](../app/advisor_knowledge_base_peisa.json).
 
 ### 1.1. Flujo de Piso Radiante
 *   **Fórmula de Carga Térmica:**
@@ -41,7 +41,7 @@ Gestionado en el backend de Python por [expert_engine_peisa.py](./app/modules/ex
 
 ## 2. Sistema Experto de Construcción Weber (Backend)
 
-Gestionado en el backend de Python por [expert_engine_weber.py](./app/modules/expertSystem/expert_engine_weber.py) consumiendo las reglas conversacionales de [advisor_knowledge_base_weber.json](./app/advisor_knowledge_base_weber.json).
+Gestionado en el backend de Python por [expert_engine_weber.py](../app/modules/expertSystem/expert_engine_weber.py) consumiendo las reglas conversacionales de [advisor_knowledge_base_weber.json](../app/advisor_knowledge_base_weber.json).
 
 ### 2.1. Diagrama de Flujo del Asesor (Mermaid)
 
@@ -206,7 +206,7 @@ Para garantizar que el cliente no se quede sin material debido a recortes o irre
 
 ## 3. Clasificador de Intenciones y Enrutamiento (Orquestador Backend)
 
-Gestionado en Python por la clase `IntentClassifier` en [orchestrator.py](./app/orchestrator.py) al recibir consultas en el endpoint unificado `/api/chat`.
+Gestionado en Python por la clase `IntentClassifier` en [orchestrator.py](../app/orchestrator.py) al recibir consultas en el endpoint unificado `/api/chat`.
 
 ### 3.1. Tipos de Intención (`IntentType`)
 *   `GUIDED_CALCULATION` ("guided_calculation"): Detecta frases para iniciar o continuar calculadoras.
@@ -216,7 +216,7 @@ Gestionado en Python por la clase `IntentClassifier` en [orchestrator.py](./app/
 *   `SWITCH_MODE` ("switch_mode"): Petición del usuario para cambiar de modo RAG a experto o viceversa.
 
 ### 3.2. Ruteo Dinámico Basado en Configuración
-El orquestador no tiene marcas hardcodeadas. Lee dinámicamente el archivo de registro [brands_registry.json](./configs/brands_registry.json) in su inicialización para asociar intenciones de conversación:
+El orquestador no tiene marcas hardcodeadas. Lee dinámicamente el archivo de registro [brands_registry.json](../configs/brands_registry.json) in su inicialización para asociar intenciones de conversación:
 1.  **Detección Directa**: Si el mensaje del usuario contiene alguna palabra clave declarada en `direct_keywords` (minúsculas), asocia de inmediato la consulta a esa marca.
 2.  **Detección Semántica**: Si no hay palabras clave directas, calcula la distancia semántica del mensaje contra la propiedad `anchor_text` (ancla temática) de cada marca registrada. Si supera el umbral de similitud, la enruta a esa marca.
 3.  **Invocación RAG**: Importa en caliente el script de Python declarado en `rag_module` y llama a la función `rag_function` definida para resolver la consulta.
@@ -225,7 +225,7 @@ El orquestador no tiene marcas hardcodeadas. Lee dinámicamente el archivo de re
 
 ## 4. Personalidad e Inferencia del LLM (Ollama)
 
-La parametrización de temperatura, limitación de tokens de salida y las directrices del rol de Soldy están centralizadas en el archivo de configuración global [prompts.json](./configs/prompts.json).
+La parametrización de temperatura, limitación de tokens de salida y las directrices del rol de Soldy están centralizadas en el archivo de configuración global [prompts.json](../configs/prompts.json).
 
 ### 4.1. Reglas Generales de Personalidad (Rol de Soldy)
 *   **Español rioplatense argentino**: Uso de voseo natural y profesional (*vos*, *tenés*, *podés*, *querés*). Está prohibido usar lunfardo vulgar o modismos de calle callejeros (como "Che", "mirá", "chequeá").
