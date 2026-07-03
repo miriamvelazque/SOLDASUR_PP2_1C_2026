@@ -98,16 +98,25 @@ pip install -r requirements.txt
 
 Para iniciar el servidor del chatbot y poder interactuar con él desde tu navegador web:
 
+### Opción A: Inicio Automático (Recomendado en Windows)
+En la raíz del proyecto, haz doble clic en el archivo **`EjecutarSoldy.bat`**. Este script se encargará automáticamente de:
+1. Verificar si Ollama está ejecutándose (y lo iniciará en segundo plano si es necesario).
+2. Programar la apertura automática de tu navegador por defecto en `http://localhost:9000`.
+3. Activar el entorno virtual `venv` y levantar la aplicación FastAPI con Uvicorn en el puerto 9000 en primer plano.
+
+---
+
+### Opción B: Inicio Manual (Consola)
 1. Asegúrate de iniciar el servidor de Ollama en una terminal si no se encuentra corriendo:
    ```bash
    ollama serve
    ```
 2. Abre otra terminal, activa el entorno virtual (`venv` según tu consola) y levanta la API del backend ejecutando:
    ```bash
-   python -m uvicorn app.main:app --reload
+   python -m uvicorn app.main:app --port 9000 --reload
    ```
-3. El servidor iniciará y estará disponible en: `http://localhost:8000`.
-4. Abre tu navegador web y entra a `http://localhost:8000` para abrir la interfaz del chat.
+3. El servidor iniciará y estará disponible en: `http://localhost:9000`.
+4. Abre tu navegador web y entra a `http://localhost:9000` para abrir la interfaz del chat.
 
 ---
 
@@ -204,6 +213,7 @@ A continuación se detalla la ubicación de los componentes del sistema para tar
 ```text
 SOLDASUR_PP2_1C_2026/
 │
+├── 📄 EjecutarSoldy.bat                  # Script de inicio automático (Windows)
 ├── 📄 requirements.txt                   # Librerías de Python requeridas
 ├── 📄 README.md                          # Documentación del proyecto
 ├── 📄 TAREA.md                           # Tareas y configuraciones de migración de imágenes
