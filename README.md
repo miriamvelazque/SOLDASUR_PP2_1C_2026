@@ -10,6 +10,8 @@
 
 ---
 
+> 📌 **Copia personal del repositorio final entregado.** Repositorio oficial del equipo: [GabrielBellesi-edu/SOLDASUR_PP2_1C_2026](https://github.com/GabrielBellesi-edu/SOLDASUR_PP2_1C_2026). El proyecto parte de una base desarrollada por la cohorte anterior, que este equipo actualizó y amplió con nuevas marcas y una arquitectura escalable.
+
 ## 📋 Descripción del Proyecto
 
 El **SoldaSur IA Chatbot** es una solución de asistencia inteligente diseñada para las sucursales de **Soldasur S.A.** en Tierra del Fuego, desarrollada en el marco de la **Práctica Profesionalizante II** del **Centro Politécnico Malvinas Argentinas (CPMA)**.
@@ -30,6 +32,16 @@ Una característica clave de la ultima versión es su **arquitectura escalable**
   [![GitHub](https://img.shields.io/badge/GitHub-GabrielBellesi--edu-181717?style=flat&logo=github)](https://github.com/GabrielBellesi-edu) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel%20Bellesi-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/gabriel-undefined-edu)
 * **Miriam Velazque**  
   [![GitHub](https://img.shields.io/badge/GitHub-miriamvelazque-181717?style=flat&logo=github)](https://github.com/miriamvelazque) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Miriam%20Velazque-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/miriam-alicia-velazque)
+
+---
+
+## 🎯 Mi rol en el proyecto (Miriam Velazque)
+
+El trabajo se repartió entre los integrantes del equipo. Mis aportes principales:
+- Lideré la **organización y documentación técnica** del desarrollo.
+- Implementé la **estructura escalable para integrar nuevas marcas** en el sistema.
+- Coordiné pruebas en la rama *testing* para validar la incorporación de múltiples marcas.
+- Aseguré la alineación con metodologías ágiles y entregables académicos.
 
 ---
 
